@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+data/cache/
+
+# Slice files are one-time seed data, not source of truth.
+# tools.yaml is the canonical input to the verifier going forward.
+data/slice-*.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

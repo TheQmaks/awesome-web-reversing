@@ -1,0 +1,49 @@
+name: Verify tool catalog
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/tools.yaml'
+      - 'scripts/verify.py'
+      - 'scripts/render_catalog.py'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Verify against GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/verify.py
+
+      - name: Re-render catalog
+        run: python scripts/render_catalog.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/ docs/catalog.md; then
+            echo "No verifier drift."
+            exit 0
+          fi
+          git add data/tools.yaml data/verified.json docs/catalog.md
+          git commit -m "chore: weekly verifier refresh ($(date -u +%Y-%m-%d))"
+          git push

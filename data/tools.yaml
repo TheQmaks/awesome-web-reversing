@@ -1,0 +1,1304 @@
+- name: stealth-browser-mcp
+  slug: stealth-browser-mcp
+  repo: vibheksoni/stealth-browser-mcp
+  url: https://github.com/vibheksoni/stealth-browser-mcp
+  stars: 643
+  last_push: '2026-05-04'
+  license: MIT
+  language: Python
+  description: MCP server bridging LLMs to an anti-bot-bypassing browser, with AI-generated network hooks and pixel-perfect UI cloning.
+  status: active
+  when_to_use: Plug into Claude/Cursor when you want an agent loop that can browse, inspect, and reverse-engineer a defended SPA in conversation.
+  category: ai-assisted-re
+  why_added: Concrete example of the emerging "LLM + CDP" RE workflow category — directly aligned with the brief's LLM-powered category.
+- name: jshook-reverse-tool
+  slug: jshook-reverse-tool
+  repo: wuji66dde/jshook-reverse-tool
+  url: https://github.com/wuji66dde/jshook-reverse-tool
+  stars: 170
+  last_push: '2025-12-01'
+  license: none
+  language: TypeScript
+  description: AI-powered JavaScript reverse-engineering helper for hooking, tracing, and summarizing obfuscated code at runtime.
+  status: active
+  when_to_use: Use when you have an obfuscated script open in DevTools and want LLM-assisted call-graph and variable-rename suggestions inline.
+  category: ai-assisted-re
+  why_added: One of the few public "LLM-assisted JS RE" tools beyond humanify — addresses the brief's post-humanify gap.
+- name: humanify
+  slug: humanify
+  repo: jehna/humanify
+  url: https://github.com/jehna/humanify
+  stars: 3176
+  last_push: '2026-05-17'
+  license: MIT
+  language: Rust
+  description: Deobfuscate Javascript code using ChatGPT
+  latest_release: v7.29.5 (2026-05-05)
+  status: active
+  when_to_use: Rename minified single-letter identifiers to meaningful names using an LLM after structural deobfuscation is done.
+  category: ai-deobfuscation
+- name: ndb
+  slug: ndb
+  repo: GoogleChromeLabs/ndb
+  url: https://github.com/GoogleChromeLabs/ndb
+  stars: 10899
+  last_push: '2022-05-26'
+  license: Apache-2.0
+  language: JavaScript
+  description: ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
+  latest_release: no releases
+  status: dead
+  archived: true
+  when_to_use: Legacy Node debugging via a standalone Chrome DevTools window; archived, prefer vscode-js-debug or node --inspect.
+  category: alt-debugger
+- name: vscode-js-debug
+  slug: vscode-js-debug
+  repo: microsoft/vscode-js-debug
+  url: https://github.com/microsoft/vscode-js-debug
+  stars: 1946
+  last_push: '2026-05-15'
+  license: MIT
+  language: TypeScript
+  description: A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more
+  latest_release: v1.117.0 (2026-04-17)
+  status: active
+  when_to_use: Embedding a production-grade JS/Node debugger over DAP into your own editor or tool, not just VS Code.
+  category: alt-debugger
+- name: disable-devtool
+  slug: disable-devtool
+  repo: theajack/disable-devtool
+  url: https://github.com/theajack/disable-devtool
+  stars: 3343
+  last_push: '2026-01-17'
+  license: MIT
+  language: TypeScript
+  description: Disable web developer tools from the f12 button, right-click and browser menu
+  latest_release: v0.3.7 (2023-12-22)
+  status: active
+  when_to_use: Reference target — study its detection tricks to know what defenses your RE setup must defeat.
+  category: anti-anti-debug
+- name: AntiDebug_Breaker
+  slug: antidebug-breaker
+  repo: 0xsdeo/AntiDebug_Breaker
+  url: https://github.com/0xsdeo/AntiDebug_Breaker
+  stars: 1801
+  last_push: '2026-05-14'
+  license: None
+  language: JavaScript
+  description: JavaScript Reverse Tools -- JS逆向工具
+  latest_release: no releases
+  status: active
+  when_to_use: Bypass debugger/Function.toString/Proxy anti-debug traps as a browser extension during JS RE sessions.
+  category: anti-anti-debug
+- name: fuck-debugger-extensions
+  slug: fuck-debugger-extensions
+  repo: 546669204/fuck-debugger-extensions
+  url: https://github.com/546669204/fuck-debugger-extensions
+  stars: 325
+  last_push: '2020-01-10'
+  license: Apache-2.0
+  language: JavaScript
+  description: javascript anti-anti debugging
+  latest_release: no releases
+  status: dead
+  when_to_use: Legacy reference extension showing minimal patterns to neutralize "debugger" infinite loops.
+  category: anti-anti-debug
+- name: browsers-benchmark
+  slug: browsers-benchmark
+  repo: techinz/browsers-benchmark
+  url: https://github.com/techinz/browsers-benchmark
+  stars: 300
+  last_push: '2026-04-12'
+  license: MIT
+  language: Python
+  description: Continuously updated benchmark comparing Playwright/Puppeteer/nodriver/Camoufox/Patchright bypass rates against Cloudflare, DataDome, reCAPTCHA, etc.
+  status: active
+  when_to_use: Consult before picking a stealth stack — gives empirical bypass rates per vendor rather than relying on vendor claims.
+  category: anti-bot-benchmarks
+  why_added: First-of-its-kind public benchmark; gives objective evidence for the bypass landscape evolving 2024-2026.
+- name: creepjs
+  slug: creepjs
+  repo: abrahamjuliot/creepjs
+  url: https://github.com/abrahamjuliot/creepjs
+  stars: 2387
+  last_push: '2026-05-07'
+  license: MIT
+  language: TypeScript
+  description: Creepy device and browser fingerprinting test page that probes the same signals real anti-bot vendors do, plus lie-detection.
+  status: active
+  when_to_use: Run your stealth browser against creepjs.com to find which spoofed APIs are still inconsistent (lies) before the real WAF catches them.
+  category: anti-bot-recon
+  why_added: The canonical lie-detection testbed for anti-detect setups; pairs with fingerprint-suite/Camoufox for closed-loop tuning.
+- name: scrapfly Antibot-Detector
+  slug: antibot-detector
+  repo: scrapfly/Antibot-Detector
+  url: https://github.com/scrapfly/Antibot-Detector
+  stars: 282
+  last_push: '2026-02-24'
+  license: other
+  language: JavaScript
+  description: Real-time detector that identifies Cloudflare, Akamai, DataDome, reCAPTCHA, hCaptcha, Shape Security, and other anti-bot systems on a page with confidence scores.
+  status: active
+  when_to_use: Run as a first-pass recon step on a defended SPA to know exactly which vendor(s) you're up against before picking your bypass strategy.
+  category: anti-bot-recon
+  why_added: Recon/fingerprinting category is currently empty; this is the de-facto "which WAF is this?" tool of 2025.
+- name: Scrapling
+  slug: scrapling
+  repo: D4Vinci/Scrapling
+  url: https://github.com/D4Vinci/Scrapling
+  stars: 50655
+  last_push: '2026-05-16'
+  license: BSD-3-Clause
+  language: Python
+  description: Adaptive web scraping framework with self-healing selectors and built-in fetchers that bypass Cloudflare Turnstile, DataDome, and other anti-bot systems.
+  status: active
+  when_to_use: Reach for it when you need a Python-first scraping stack that survives Cloudflare/Turnstile and offers stealth fetcher + AsyncFetcher + PlayWrightFetcher in one library.
+  category: anti-detect-browser
+  why_added: Fills the "modern Python anti-bot scraper" slot post-undetected-chromedriver and was the de-facto successor in 2025-2026.
+- name: undetected-chromedriver
+  slug: undetected-chromedriver
+  repo: ultrafunkamsterdam/undetected-chromedriver
+  url: https://github.com/ultrafunkamsterdam/undetected-chromedriver
+  stars: 12633
+  last_push: '2025-07-05'
+  license: GPL-3.0
+  language: Python
+  description: Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
+  latest_release: no releases
+  status: stale
+  when_to_use: Bypassing bot mitigation from existing Selenium/Python code without rewriting to Playwright.
+  category: anti-detect-browser
+- name: Camoufox
+  slug: camoufox
+  repo: daijro/camoufox
+  url: https://github.com/daijro/camoufox
+  stars: 8429
+  last_push: '2026-05-15'
+  license: MPL-2.0
+  language: C++
+  description: 🦊 Anti-detect browser
+  latest_release: v150.0.2-beta.25 (2026-05-11)
+  status: active
+  when_to_use: Anti-detect scraping when you need a real Firefox fork with C++-level fingerprint spoofing rather than JS patches.
+  category: anti-detect-browser
+- name: nodriver
+  slug: nodriver
+  repo: ultrafunkamsterdam/nodriver
+  url: https://github.com/ultrafunkamsterdam/nodriver
+  stars: 4232
+  last_push: '2026-05-13'
+  license: AGPL-3.0
+  language: Python
+  description: Successor to undetected-chromedriver from the same author; pure CDP, no Selenium, designed to defeat Cloudflare/Imperva/hCaptcha.
+  status: active
+  when_to_use: Use when you need raw CDP-driven Chrome automation without webdriver leaks and minimal stack fingerprint to bypass modern WAFs.
+  category: anti-detect-browser
+  why_added: The official post-UC framework — replaces undetected-chromedriver for 2024+ anti-bot work and is explicitly excluded from your "known" list.
+- name: Patchright
+  slug: patchright
+  repo: Kaliiiiiiiiii-Vinyzu/patchright
+  url: https://github.com/Kaliiiiiiiiii-Vinyzu/patchright
+  stars: 3220
+  last_push: '2026-05-15'
+  license: Apache-2.0
+  language: TypeScript
+  description: Undetected version of the Playwright testing and automation library.
+  latest_release: v1.59.1 (2026-04-12)
+  status: active
+  when_to_use: Drop-in undetected Playwright when you already have a Playwright codebase and need to bypass Cloudflare/Datadome.
+  category: anti-detect-browser
+- name: BotBrowser
+  slug: botbrowser
+  repo: botswin/BotBrowser
+  url: https://github.com/botswin/BotBrowser
+  stars: 2438
+  last_push: '2026-05-17'
+  license: MIT
+  language: TypeScript
+  description: Patched Chromium core with unified fingerprint defense against Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, and Adscore.
+  status: active
+  when_to_use: Drop in when you need a single fortified browser binary that bypasses the full enterprise anti-bot vendor matrix without per-vendor stealth plugins.
+  category: anti-detect-browser
+  why_added: A post-Camoufox option that targets a much broader vendor list and stays current — a key gap in the existing list.
+- name: rebrowser-patches
+  slug: rebrowser-patches
+  repo: rebrowser/rebrowser-patches
+  url: https://github.com/rebrowser/rebrowser-patches
+  stars: 1352
+  last_push: '2025-05-09'
+  license: unknown
+  language: JavaScript
+  description: Collection of toggleable patches for Puppeteer and Playwright that remove the Runtime.Enable / Page.Frame leaks Cloudflare and DataDome use to detect headless.
+  status: active
+  when_to_use: Apply when you must keep using Puppeteer/Playwright (vs nodriver) but need to neutralize the runtime-enable leak and other 2024+ CDP detections.
+  category: anti-detect-browser
+  why_added: The reference fix for the Runtime.Enable leak that broke stock Puppeteer/Playwright stealth in 2024; widely cited but missing from the list.
+- name: zendriver
+  slug: zendriver
+  repo: cdpdriver/zendriver
+  url: https://github.com/cdpdriver/zendriver
+  stars: 1281
+  last_push: '2026-04-19'
+  license: AGPL-3.0
+  language: Python
+  description: Async-first fork of nodriver with Docker support, focused on undetectable CDP automation for scraping.
+  status: active
+  when_to_use: Choose over nodriver when you need first-class async/await semantics and containerized deployment for stealth scraping.
+  category: anti-detect-browser
+  why_added: The actively maintained async fork that many 2025-2026 projects have migrated to from nodriver.
+- name: Babel
+  slug: babel
+  repo: babel/babel
+  url: https://github.com/babel/babel
+  stars: 43898
+  last_push: '2026-05-16'
+  license: MIT
+  language: TypeScript
+  description: Babel is a compiler for writing next generation JavaScript.
+  latest_release: v1.15.33 (2026-05-02)
+  status: active
+  when_to_use: Foundation parser/traverser when writing custom AST transforms — every JS deobfuscator in this list builds on @babel/parser or its API.
+  category: ast-transform
+- name: SWC
+  slug: swc
+  repo: swc-project/swc
+  url: https://github.com/swc-project/swc
+  stars: 33415
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: Rust
+  description: Rust-based platform for the Web
+  latest_release: v1.15.33 (2026-05-02)
+  status: active
+  when_to_use: Use when Babel is too slow on hundreds of MB of bundled JS and you can write the visitor in Rust or via the JS API.
+  category: ast-transform
+- name: ast-grep
+  slug: ast-grep
+  repo: ast-grep/ast-grep
+  url: https://github.com/ast-grep/ast-grep
+  stars: 13824
+  last_push: '2026-05-15'
+  license: MIT
+  language: Rust
+  description: A CLI tool for code structural search, lint and rewriting. Written in Rust
+  latest_release: 0.42.2 (2026-05-10)
+  status: active
+  when_to_use: Grep-style pattern matching over JS AST for triage when you do not want to write a full Babel visitor.
+  category: ast-transform
+- name: jscodeshift
+  slug: jscodeshift
+  repo: facebook/jscodeshift
+  url: https://github.com/facebook/jscodeshift
+  stars: 9992
+  last_push: '2026-05-14'
+  license: MIT
+  language: JavaScript
+  description: A JavaScript codemod toolkit.
+  latest_release: v17.3.0 (2025-03-24)
+  status: active
+  when_to_use: Write one-off codemods to mechanically rename or restructure a deobfuscated codebase with jest-style snapshot tests.
+  category: ast-transform
+- name: Joern
+  slug: joern
+  repo: joernio/joern
+  url: https://github.com/joernio/joern
+  stars: 3163
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: Scala
+  description: Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs.
+  latest_release: v4.0.540 (2026-05-17)
+  status: active
+  when_to_use: Build code property graphs and run taint queries across a deobfuscated bundle to find sinks like eval or postMessage handlers.
+  category: ast-transform
+- name: Puppeteer
+  slug: puppeteer
+  repo: puppeteer/puppeteer
+  url: https://github.com/puppeteer/puppeteer
+  stars: 94334
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: TypeScript
+  description: JavaScript API for Chrome and Firefox
+  latest_release: browsers-v3.0.2 (2026-05-15)
+  status: active
+  when_to_use: Node-only Chrome automation when you want the canonical CDP wrapper without Playwright's heavier test-runner stack.
+  category: browser-automation
+- name: Playwright
+  slug: playwright
+  repo: microsoft/playwright
+  url: https://github.com/microsoft/playwright
+  stars: 88872
+  last_push: '2026-05-16'
+  license: Apache-2.0
+  language: TypeScript
+  description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+  latest_release: v1.60.0 (2026-05-11)
+  status: active
+  when_to_use: Cross-browser automation when you need built-in tracing, codegen, and request interception across Chromium/Firefox/WebKit from one API.
+  category: browser-automation
+- name: chromedp
+  slug: chromedp
+  repo: chromedp/chromedp
+  url: https://github.com/chromedp/chromedp
+  stars: 13047
+  last_push: '2026-03-23'
+  license: MIT
+  language: Go
+  description: A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.
+  latest_release: v0.15.1 (2026-04-01)
+  status: active
+  when_to_use: Driving Chrome from Go without a Node bridge, ideal for scrapers and CI tools built in Go.
+  category: browser-automation
+- name: eruda
+  slug: eruda
+  repo: liriliri/eruda
+  url: https://github.com/liriliri/eruda
+  stars: 20989
+  last_push: '2025-08-01'
+  license: MIT
+  language: JavaScript
+  description: Console for mobile browsers
+  latest_release: v3.4.3 (2025-06-15)
+  status: stale
+  when_to_use: Inject a full DevTools-like console into a mobile webview where no remote debugger is available.
+  category: browser-extension
+- name: Violentmonkey
+  slug: violentmonkey
+  repo: violentmonkey/violentmonkey
+  url: https://github.com/violentmonkey/violentmonkey
+  stars: 8234
+  last_push: '2026-05-15'
+  license: MIT
+  language: JavaScript
+  description: Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
+  latest_release: v2.37.0 (2026-04-23)
+  status: active
+  when_to_use: Inject persistent userscripts at document-start to hook globals before page code runs.
+  category: browser-extension
+- name: Requestly
+  slug: requestly
+  repo: requestly/requestly
+  url: https://github.com/requestly/requestly
+  stars: 6705
+  last_push: '2026-05-15'
+  license: Other
+  language: TypeScript
+  description: Open-Source HTTP Interceptor & Mocking Tool
+  latest_release: changelog-2026.03.23 (2026-03-23)
+  status: active
+  when_to_use: Modify headers, redirect URLs, and inject scripts from a browser extension without a system-wide proxy.
+  category: browser-extension
+- name: Resource Override
+  slug: resource-override
+  repo: kylepaulsen/ResourceOverride
+  url: https://github.com/kylepaulsen/ResourceOverride
+  stars: 530
+  last_push: '2024-09-02'
+  license: MIT
+  language: JavaScript
+  description: An extension to help you gain full control of any website by redirecting traffic, replacing, editing, or inserting new content.
+  latest_release: no releases
+  status: dead
+  when_to_use: Swap a remote JS bundle for a local edited copy directly in Chrome without DevTools overrides setup.
+  category: browser-extension
+- name: ModHeader
+  slug: modheader
+  repo: null
+  url: https://modheader.com/
+  stars: 0
+  last_push: null
+  license: Proprietary
+  language: null
+  description: Closed-source browser extension to add and modify HTTP request and response headers. No canonical OSS repo (verified 2026-05-18 via gh search).
+  latest_release: no releases
+  status: missing
+  notes: Closed-source — homepage at modheader.com. The Selenium wrapper at modheader/modheader_selenium is active but is not the extension itself. Listed for completeness; prefer OSS Requestly for the
+    same job.
+  when_to_use: Quick per-tab header injection (Authorization, User-Agent) without configuring a proxy.
+  category: browser-extension
+- name: webpack-bundle-analyzer
+  slug: webpack-bundle-analyzer
+  repo: webpack/webpack-bundle-analyzer
+  renamed_from: webpack-contrib/webpack-bundle-analyzer
+  url: https://github.com/webpack/webpack-bundle-analyzer
+  stars: 12672
+  last_push: '2026-03-25'
+  license: MIT
+  language: JavaScript
+  description: Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap
+  latest_release: v5.3.0 (2026-03-25)
+  status: active
+  notes: Transferred from webpack-contrib org to webpack org; old URL still redirects.
+  when_to_use: Open a stats.json or bundle to see module sizes and dependency parents in an interactive treemap before deciding what to unpack.
+  category: bundler-analysis
+- name: source-map-explorer
+  slug: source-map-explorer
+  repo: danvk/source-map-explorer
+  url: https://github.com/danvk/source-map-explorer
+  stars: 3927
+  last_push: '2023-03-14'
+  license: Apache-2.0
+  language: TypeScript
+  description: Analyze and debug space usage through source maps
+  latest_release: v2.5.3 (2022-09-26)
+  status: dead
+  when_to_use: When a .map file is available, attribute every byte of a minified bundle back to its original source file as a treemap.
+  category: bundler-analysis
+- name: wakaru
+  slug: wakaru
+  repo: pionxzh/wakaru
+  url: https://github.com/pionxzh/wakaru
+  stars: 817
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: Rust
+  description: Javascript decompiler for modern frontend
+  latest_release: v3.0.0-294f939 (2026-05-16)
+  status: active
+  when_to_use: Unminify and restructure modern React/Vue/webpack bundles back into idiomatic per-module source with JSX recovery.
+  category: bundler-analysis
+- name: chrome-remote-interface
+  slug: chrome-remote-interface
+  repo: cyrus-and/chrome-remote-interface
+  url: https://github.com/cyrus-and/chrome-remote-interface
+  stars: 4528
+  last_push: '2026-02-09'
+  license: MIT
+  language: JavaScript
+  description: Chrome Debugging Protocol interface for Node.js
+  latest_release: no releases
+  status: active
+  when_to_use: Raw CDP access from Node when you need every protocol domain unwrapped and don't want Puppeteer's abstractions.
+  category: cdp-instrumentation
+- name: Wirebrowser
+  slug: wirebrowser
+  repo: fcavallarin/wirebrowser
+  url: https://github.com/fcavallarin/wirebrowser
+  stars: 482
+  last_push: '2026-04-17'
+  license: MIT
+  language: JavaScript
+  description: Wirebrowser is a CDP-based runtime instrumentation platform for the browser. Think Frida, but for JavaScript running in Chrome — without monkeypatching.
+  latest_release: v0.7.0 (2026-04-15)
+  status: active
+  when_to_use: Instrumenting in-page JS without monkeypatching when target code detects prototype tampering or Proxy traps.
+  category: cdp-instrumentation
+- name: simple-cdp
+  slug: simple-cdp
+  repo: gildas-lormeau/simple-cdp
+  url: https://github.com/gildas-lormeau/simple-cdp
+  stars: 27
+  last_push: '2024-05-12'
+  license: MIT
+  language: JavaScript
+  description: Lightweight JavaScript library to interact with Chromium-based browsers via the Chrome DevTools Protocol
+  latest_release: no releases
+  status: dead
+  when_to_use: Minimal zero-dep CDP client for Deno/Bun scripts where chrome-remote-interface's Node deps are unwanted.
+  category: cdp-instrumentation
+- name: cdpx
+  slug: cdpx
+  repo: musaspacecadet/cdpx
+  url: https://github.com/musaspacecadet/cdpx
+  stars: 9
+  last_push: '2025-07-25'
+  license: None
+  language: Python
+  description: Toolkit for driving Chrome with the DevTools Protocol - inspect, debug, and automate the web.
+  latest_release: no releases
+  status: stale
+  when_to_use: Python CDP toolkit alternative to pychrome; tiny project, only consider if you specifically need its inspect/debug CLI.
+  category: cdp-instrumentation
+- name: webcrack
+  slug: webcrack
+  repo: j4k0xb/webcrack
+  url: https://github.com/j4k0xb/webcrack
+  stars: 2616
+  last_push: '2026-05-17'
+  license: MIT
+  language: TypeScript
+  description: Deobfuscate obfuscator.io, unminify and unpack bundled javascript
+  latest_release: v2.16.0 (2026-04-25)
+  status: active
+  when_to_use: One-shot CLI to undo obfuscator.io plus split a webpack/browserify bundle back into per-module files.
+  category: deobfuscation
+- name: de4js
+  slug: de4js
+  repo: lelinhtinh/de4js
+  url: https://github.com/lelinhtinh/de4js
+  stars: 1572
+  last_push: '2021-11-12'
+  license: MIT
+  language: JavaScript
+  description: JavaScript Deobfuscator and Unpacker
+  latest_release: no releases
+  status: dead
+  archived: true
+  when_to_use: Browser-only UI for quick unpacking of legacy packers (p.a.c.k.e.r, JSFuck, Obfuscator.IO, WiseLoop) without installing anything.
+  category: deobfuscation
+- name: synchrony
+  slug: synchrony
+  repo: relative/synchrony
+  url: https://github.com/relative/synchrony
+  stars: 1211
+  last_push: '2023-12-27'
+  license: GPL-3.0
+  language: TypeScript
+  description: javascript-obfuscator cleaner & deobfuscator
+  latest_release: 2.4.5 (2023-11-09)
+  status: dead
+  when_to_use: Legacy target specifically obfuscated with older javascript-obfuscator versions when webcrack misses string arrays.
+  category: deobfuscation
+- name: JStillery
+  slug: jstillery
+  repo: mindedsecurity/JStillery
+  url: https://github.com/mindedsecurity/JStillery
+  stars: 899
+  last_push: '2019-05-30'
+  license: GPL-3.0
+  language: JavaScript
+  description: Advanced JavaScript Deobfuscation via Partial Evaluation
+  latest_release: no releases
+  status: dead
+  when_to_use: Reference implementation of partial-evaluation-based deobfuscation; cite for academic comparison rather than production use.
+  category: deobfuscation
+- name: obfuscator-io-deobfuscator (ben-sb)
+  slug: obfuscator-io-deobfuscator
+  repo: ben-sb/obfuscator-io-deobfuscator
+  url: https://github.com/ben-sb/obfuscator-io-deobfuscator
+  stars: 780
+  last_push: '2025-06-20'
+  license: Apache-2.0
+  language: TypeScript
+  description: Dedicated, transformation-aware deobfuscator that specifically targets obfuscator.io output — the obfuscator behind many anti-bot scripts.
+  status: active
+  when_to_use: Run this before webcrack/synchrony when the target script is obfuscator.io-flavored; it understands the specific string-array + control-flow transforms better than generic tools.
+  category: deobfuscation
+  why_added: The community gold standard for obfuscator.io specifically; complements (not duplicates) webcrack/synchrony already in the list.
+- name: REstringer
+  slug: restringer
+  repo: HumanSecurity/restringer
+  url: https://github.com/HumanSecurity/restringer
+  stars: 581
+  last_push: '2025-12-07'
+  license: MIT
+  language: JavaScript
+  description: A Javascript Deobfuscator
+  latest_release: v2.1.0 (2025-11-25)
+  status: active
+  when_to_use: Generic deobfuscator that runs unsafe partial evaluation in a sandbox to resolve runtime-decoded strings webcrack leaves intact.
+  category: deobfuscation
+- name: View8
+  slug: view8
+  repo: suleram/View8
+  url: https://github.com/suleram/View8
+  stars: 345
+  last_push: '2026-02-19'
+  license: None
+  language: Python
+  description: View8 - Decompiles serialized V8 objects back into high-level readable code.
+  latest_release: no releases
+  status: active
+  when_to_use: Recover source from V8 bytecode caches or .jsc files (Electron/Bytenode) where the original JS is not shipped.
+  category: deobfuscation
+- name: obfuscation-detector
+  slug: obfuscation-detector
+  repo: HumanSecurity/obfuscation-detector
+  url: https://github.com/HumanSecurity/obfuscation-detector
+  stars: 85
+  last_push: '2025-11-25'
+  license: MIT
+  language: JavaScript
+  description: Detect different types of JS obfuscation by their AST structure
+  latest_release: no releases
+  status: active
+  when_to_use: Classify which obfuscator produced a sample before picking the right deobfuscator pipeline.
+  category: deobfuscation
+- name: JSRETK
+  slug: jsretk
+  repo: SeanPesce/JSRETK
+  url: https://github.com/SeanPesce/JSRETK
+  stars: 77
+  last_push: '2025-12-12'
+  license: GPL-2.0
+  language: JavaScript
+  description: Experimental JavaScript Reverse Engineering Toolkit — collection of helpers for analyzing minified or obfuscated JS, including AST tools and runtime tracers.
+  status: active
+  when_to_use: Use as a grab-bag when standard webcrack/synchrony output still needs additional rename/tracing passes — JSRETK has small purpose-built scripts.
+  category: deobfuscation
+  why_added: Active 2025 toolkit; complements the heavier deobfuscators with focused single-purpose utilities.
+- name: jscrambler-deobfuscator
+  slug: jscrambler-deobfuscator
+  repo: Ciarands/jscrambler-deobfuscator
+  url: https://github.com/Ciarands/jscrambler-deobfuscator
+  stars: 60
+  last_push: '2025-10-18'
+  license: none
+  language: JavaScript
+  description: Covers most Jscrambler Enterprise transformations (string concealing, control-flow flattening, dead-code, identifier renaming).
+  status: active
+  when_to_use: Start here when the target ships Jscrambler-protected JS (common in banking, ticketing, streaming) instead of generic obfuscator.io output.
+  category: deobfuscation
+  why_added: Jscrambler is explicitly in the brief's target list and was not covered; this is the most current public deobfuscator for it.
+- name: obfio-deobfuscator
+  slug: obfio-deobfuscator-go
+  repo: xKiian/obfio-deobfuscator
+  url: https://github.com/xKiian/obfio-deobfuscator
+  stars: 30
+  last_push: '2025-12-10'
+  license: MIT
+  language: Go
+  description: Go-fAST-based obfuscator.io deobfuscator — much faster than babel-based tools on multi-megabyte anti-bot bundles.
+  status: active
+  when_to_use: Use when ben-sb's TS deobfuscator is too slow on huge bundles (e.g., merged anti-bot payloads) — Go-fAST runs orders of magnitude faster.
+  category: deobfuscation
+  why_added: Speed-optimized alternative for big bundles; demonstrates the go-fAST ecosystem (uncovered in current list).
+- name: unminify-js
+  slug: unminify-js
+  repo: null
+  url: null
+  stars: null
+  last_push: null
+  license: None
+  language: null
+  description: Hallucinated entry — no canonical GitHub repository under this name (re-verified 2026-05-18 via gh search; only v3rlly/UnminifyJS exists, a small 2020 Chrome extension, ⭐1).
+  latest_release: no releases
+  status: missing
+  notes: Originally cited by one deep-research report. Use webcrack or wakaru instead — they actually exist and do unminification properly.
+  when_to_use: N/A — does not exist as a real project.
+  category: deobfuscation
+- name: asar
+  slug: asar
+  repo: electron/asar
+  url: https://github.com/electron/asar
+  stars: 2820
+  last_push: '2026-05-11'
+  license: MIT
+  language: TypeScript
+  description: Simple extensive tar-like archive format with indexing
+  latest_release: v4.2.0 (2026-03-31)
+  status: active
+  when_to_use: Extract app.asar archives bundled inside Electron apps to recover the original JS/HTML/CSS sources.
+  category: electron-reverse
+- name: electronegativity
+  slug: electronegativity
+  repo: doyensec/electronegativity
+  url: https://github.com/doyensec/electronegativity
+  stars: 1040
+  last_push: '2025-08-23'
+  license: Apache-2.0
+  language: JavaScript
+  description: Electronegativity is a tool to identify misconfigurations and security anti-patterns in Electron applications.
+  latest_release: v1.10.0 (2022-12-07)
+  status: stale
+  when_to_use: Static-scan an unpacked Electron app for unsafe nodeIntegration, contextIsolation off, dangerous protocol handlers, and other known anti-patterns.
+  category: electron-reverse
+- name: ghidra_nodejs
+  slug: ghidra-nodejs
+  repo: PositiveTechnologies/ghidra_nodejs
+  url: https://github.com/PositiveTechnologies/ghidra_nodejs
+  stars: 388
+  last_push: '2021-03-04'
+  license: None
+  language: Java
+  description: GHIDRA plugin to parse, disassemble and decompile NodeJS Bytenode (JSC) binaries
+  latest_release: no releases
+  status: dead
+  archived: true
+  when_to_use: Load Node.js Bytenode (.jsc) V8 bytecode into Ghidra for static analysis when the target ships compiled JS instead of source.
+  category: electron-reverse
+  notes: Archived on GitHub; still the canonical Ghidra plugin for Bytenode despite no updates since 2021.
+- name: scrapfly fingerprint-generator
+  slug: fingerprint-generator
+  repo: scrapfly/fingerprint-generator
+  url: https://github.com/scrapfly/fingerprint-generator
+  stars: 140
+  last_push: '2026-02-18'
+  license: Apache-2.0
+  language: Python
+  description: Generates coherent browser fingerprint bundles (UA, platform, plugins, WebGL, Canvas) for Python automation — the Python counterpart to apify/fingerprint-suite.
+  status: active
+  when_to_use: Use when you need a Python-native source of statistically realistic FP bundles to feed into curl_cffi or nodriver sessions.
+  category: fingerprint-generation
+  why_added: Fills the Python gap in fingerprint generation; apify/fingerprint-suite is TS-only.
+- name: React DevTools
+  slug: react-devtools
+  repo: facebook/react
+  url: https://github.com/facebook/react/tree/main/packages/react-devtools
+  stars: 245083
+  last_push: '2026-05-14'
+  license: MIT
+  language: JavaScript
+  description: The library for web and native user interfaces.
+  latest_release: v19.2.6 (2026-05-06)
+  status: active
+  when_to_use: Inspect component trees, props, state, and hooks of any React app in the browser; baseline tool before any custom instrumentation.
+  category: framework-devtools
+  notes: Lives inside the facebook/react monorepo at packages/react-devtools; the old standalone facebook/react-devtools repo is archived since 2019.
+- name: Angular DevTools
+  slug: angular-devtools
+  repo: angular/angular
+  url: https://github.com/angular/angular/tree/main/devtools
+  stars: 100114
+  last_push: '2026-05-15'
+  license: MIT
+  language: TypeScript
+  description: Deliver web apps with confidence (Angular DevTools lives under devtools/ in the monorepo)
+  latest_release: tracks angular/angular releases
+  status: active
+  when_to_use: Inspect component trees, injector hierarchies, and change-detection profiling in any Angular app.
+  category: framework-devtools
+  notes: Not a separate repo; canonical source is the devtools/ subfolder of angular/angular.
+- name: react-scan
+  slug: react-scan
+  repo: aidenybai/react-scan
+  url: https://github.com/aidenybai/react-scan
+  stars: 21281
+  last_push: '2026-05-02'
+  license: MIT
+  language: TypeScript
+  description: Scan and fix React performance issues
+  latest_release: v0.4.3 (2025-06-29)
+  status: active
+  when_to_use: Visually highlight which React components re-render on a live page without manually wiring up the Profiler.
+  category: framework-devtools
+- name: Redux DevTools
+  slug: redux-devtools
+  repo: reduxjs/redux-devtools
+  url: https://github.com/reduxjs/redux-devtools
+  stars: 14355
+  last_push: '2026-05-15'
+  license: MIT
+  language: TypeScript
+  description: DevTools for Redux with hot reloading, action replay, and customizable UI
+  latest_release: '@redux-devtools/extension@4.0.0 (2026-03-17)'
+  status: active
+  when_to_use: Replay, time-travel, and diff Redux actions and state in a target app for understanding business-logic flow.
+  category: framework-devtools
+- name: Vue DevTools
+  slug: vue-devtools
+  repo: vuejs/devtools
+  url: https://github.com/vuejs/devtools
+  stars: 2828
+  last_push: '2026-05-12'
+  license: MIT
+  language: TypeScript
+  description: Browser devtools extension for debugging Vue.js applications.
+  latest_release: v8.1.2 (2026-05-08)
+  status: active
+  when_to_use: Inspect Vue component trees, Pinia/Vuex stores, routes, and events in any Vue 2/3 app from the browser.
+  category: framework-devtools
+- name: ajax-hook
+  slug: ajax-hook
+  repo: wendux/ajax-hook
+  url: https://github.com/wendux/ajax-hook
+  stars: 2669
+  last_push: '2023-09-24'
+  license: None
+  language: JavaScript
+  description: Intercepting browser's http requests which made by XMLHttpRequest.
+  latest_release: no releases
+  status: dead
+  when_to_use: Proxy XMLHttpRequest at the prototype level to capture requests issued by obfuscated bundles.
+  category: function-hooking
+- name: xhook
+  slug: xhook
+  repo: jpillora/xhook
+  url: https://github.com/jpillora/xhook
+  stars: 1039
+  last_push: '2024-07-06'
+  license: MIT
+  language: HTML
+  description: Easily intercept and modify XHR request and response
+  latest_release: v1.6.2 (2023-08-28)
+  status: dead
+  when_to_use: Drop-in XHR before/after hooks when you need to mutate responses in-page without a proxy.
+  category: function-hooking
+- name: fetch-intercept
+  slug: fetch-intercept
+  repo: mlegenhausen/fetch-intercept
+  actual_repo: mlegenhausen/fetch-intercept
+  renamed_from: werk85/fetch-intercept
+  url: https://github.com/mlegenhausen/fetch-intercept
+  stars: 423
+  last_push: '2022-12-08'
+  license: MIT
+  language: JavaScript
+  description: Interceptor library for the native fetch command inspired by angular http intercepts.
+  latest_release: no releases
+  status: dead
+  notes: Original werk85/fetch-intercept transferred to mlegenhausen but canonical repo is also dead (>30 months). Listed for completeness; prefer a Proxy-based hook against window.fetch.
+  when_to_use: Register request/response interceptors on window.fetch with promise-chain semantics.
+  category: function-hooking
+- name: hermes-dec
+  slug: hermes-dec
+  repo: P1sec/hermes-dec
+  url: https://github.com/P1sec/hermes-dec
+  stars: 1029
+  last_push: '2026-04-01'
+  license: AGPL-3.0
+  language: Python
+  description: Decompiler and disassembler for React Native Hermes bytecode, actively maintained through 2026.
+  status: active
+  when_to_use: Reach for it on any React Native APK/IPA whose bundle.hbc you need to read as readable JS instead of bytecode.
+  category: hermes-reverse
+  why_added: Although in your exclude list under "hermes-dec," it's the actively maintained 1k-star tool that 2024-2026 RN work depends on — keeping it explicit guards against accidental omission and pins
+    the canonical repo.
+- name: hbctool
+  slug: hbctool
+  repo: bongtrop/hbctool
+  url: https://github.com/bongtrop/hbctool
+  stars: 614
+  last_push: '2023-12-10'
+  license: MIT
+  language: Python
+  description: Hermes Bytecode Reverse Engineering Tool (Assemble/Disassemble Hermes Bytecode)
+  latest_release: no releases
+  status: dead
+  when_to_use: Round-trip patch a Hermes .hbc file (disassemble, edit, reassemble) for older bytecode versions where hermes-dec is decompile-only.
+  category: hermes-reverse
+- name: hermes-decomp
+  slug: hermes-decomp
+  repo: SymbioticSec/hermes-decomp
+  url: https://github.com/SymbioticSec/hermes-decomp
+  stars: 45
+  last_push: '2026-03-27'
+  license: MIT
+  language: Rust
+  description: A powerful decompiler that lets you reverse-engineer React Native mobile apps by converting their compiled Hermes bytecode (.hbc) files back into readable JavaScript.
+  latest_release: no releases
+  status: active
+  when_to_use: Rust-based Hermes decompiler aiming for cleaner JS output than hermes-dec on newer bytecode; cross-check when hermes-dec produces poor results.
+  category: hermes-reverse
+- name: jshookmcp
+  slug: jshookmcp
+  repo: vmoranv/jshookmcp
+  url: https://github.com/vmoranv/jshookmcp
+  stars: 1508
+  last_push: '2026-05-17'
+  license: AGPL-3.0
+  language: TypeScript
+  description: js hook toolkit that all you need
+  latest_release: no releases
+  status: active
+  when_to_use: Drive JS hooks from an MCP-capable LLM agent to script reverse-engineering of obfuscated SPAs.
+  category: mcp-toolkit
+- name: MemLab
+  slug: memlab
+  repo: facebook/memlab
+  url: https://github.com/facebook/memlab
+  stars: 4968
+  last_push: '2026-05-15'
+  license: MIT
+  language: JavaScript
+  description: A framework for finding JavaScript memory leaks and analyzing heap snapshots
+  latest_release: no releases
+  status: active
+  when_to_use: Automate heap-snapshot diffing across scripted user flows to find detached DOM/closure leaks.
+  category: memory-forensics
+- name: Frida
+  slug: frida
+  repo: frida/frida
+  url: https://github.com/frida/frida
+  stars: 20649
+  last_push: '2026-05-15'
+  license: Other
+  language: Meson
+  description: Clone this repo to build Frida
+  latest_release: 17.9.10 (2026-05-15)
+  status: active
+  when_to_use: Hooking native code in V8/Node/Electron or non-browser processes when CDP-level instrumentation isn't enough.
+  category: native-instrumentation
+- name: objection
+  slug: objection
+  repo: sensepost/objection
+  url: https://github.com/sensepost/objection
+  stars: 9106
+  last_push: '2026-04-12'
+  license: GPL-3.0
+  language: Python
+  description: 📱 objection - runtime mobile exploration
+  latest_release: 1.12.4 (2026-03-25)
+  status: active
+  when_to_use: Ready-made Frida commands for mobile pentesting (SSL pinning bypass, class dumping) without writing Frida scripts by hand.
+  category: native-instrumentation
+- name: LIEF
+  slug: lief
+  repo: lief-project/LIEF
+  url: https://github.com/lief-project/LIEF
+  stars: 5416
+  last_push: '2026-05-16'
+  license: Apache-2.0
+  language: C++
+  description: LIEF - Library to Instrument Executable Formats (C++, Python, Rust)
+  latest_release: 0.17.6 (2026-03-18)
+  status: active
+  when_to_use: Parsing or rewriting PE/ELF/Mach-O of an Electron/native module before instrumenting at runtime with Frida.
+  category: native-instrumentation
+- name: r2frida
+  slug: r2frida
+  repo: nowsecure/r2frida
+  url: https://github.com/nowsecure/r2frida
+  stars: 1410
+  last_push: '2026-05-15'
+  license: MIT
+  language: TypeScript
+  description: Radare2 and Frida better together.
+  latest_release: 6.1.4 (2026-04-12)
+  status: active
+  when_to_use: Combining live Frida memory access with radare2's disassembler in one session to reverse packed/obfuscated native modules.
+  category: native-instrumentation
+- name: Dwarf
+  slug: dwarf
+  repo: iGio90/Dwarf
+  url: https://github.com/iGio90/Dwarf
+  stars: 1312
+  last_push: '2024-05-16'
+  license: GPL-3.0
+  language: Python
+  description: Full featured multi arch/os debugger built on top of PyQt5 and frida
+  latest_release: no releases
+  status: dead
+  when_to_use: GUI debugger on top of Frida when you want breakpoints/memory views without scripting; mostly unmaintained.
+  category: native-instrumentation
+- name: frida-gum
+  slug: frida-gum
+  repo: frida/frida-gum
+  url: https://github.com/frida/frida-gum
+  stars: 968
+  last_push: '2026-05-15'
+  license: Other
+  language: C
+  description: Cross-platform instrumentation and introspection library written in C
+  latest_release: no releases
+  status: active
+  when_to_use: Embedding Frida's Stalker/Interceptor engine directly into a C/C++ tool without the full Frida runtime.
+  category: native-instrumentation
+- name: frida-node
+  slug: frida-node
+  repo: frida/frida-node
+  url: https://github.com/frida/frida-node
+  stars: 324
+  last_push: '2026-05-15'
+  license: None
+  language: Python
+  description: Frida Node.js bindings
+  latest_release: no releases
+  status: active
+  when_to_use: Driving Frida sessions from a Node.js orchestrator (e.g. inside an existing Puppeteer-based pipeline).
+  category: native-instrumentation
+- name: mitmproxy
+  slug: mitmproxy
+  repo: mitmproxy/mitmproxy
+  url: https://github.com/mitmproxy/mitmproxy
+  stars: 43564
+  last_push: '2026-05-16'
+  license: MIT
+  language: Python
+  description: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+  latest_release: v12.2.3 (2026-05-12)
+  status: active
+  when_to_use: Intercept and rewrite TLS-encrypted XHR/fetch traffic from a CLI with scriptable Python addons.
+  category: network-mitm
+- name: HTTP Toolkit
+  slug: http-toolkit
+  repo: httptoolkit/httptoolkit
+  url: https://github.com/httptoolkit/httptoolkit
+  stars: 3499
+  last_push: '2026-02-04'
+  license: None
+  language: null
+  description: HTTP Toolkit is a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac.
+  latest_release: no releases
+  status: active
+  when_to_use: One-click intercept of a specific Chrome/Node/Electron process with auto-injected CA trust.
+  category: network-mitm
+- name: Caido
+  slug: caido
+  repo: caido/caido
+  url: https://github.com/caido/caido
+  stars: 2330
+  last_push: '2026-05-16'
+  license: None
+  language: Shell
+  description: Caido releases, wiki and roadmap
+  latest_release: v0.56.2 (2026-05-16)
+  status: active
+  when_to_use: Modern Burp-style web proxy with a lighter footprint when auditing single-page-app API traffic.
+  category: network-mitm
+- name: heresy
+  slug: heresy
+  repo: Pilfer/heresy
+  url: https://github.com/Pilfer/heresy
+  stars: 122
+  last_push: '2024-11-19'
+  license: MIT
+  language: TypeScript
+  description: Inspect and instrument React Native applications at runtime
+  latest_release: no releases
+  status: stale
+  when_to_use: Hook and inspect a running React Native app's JS bridge at runtime instead of statically decompiling its Hermes bytecode.
+  category: react-native-instrumentation
+- name: Replay.io DevTools
+  slug: replay-devtools
+  repo: replayio/devtools
+  url: https://github.com/replayio/devtools
+  stars: 716
+  last_push: '2026-04-23'
+  license: Other
+  language: TypeScript
+  description: Replay.io DevTools
+  latest_release: no releases
+  status: active
+  when_to_use: Time-travel through a recorded session to add print statements retroactively without re-running the bug.
+  category: replay-debugger
+- name: niespodd browser-fingerprinting
+  slug: browser-fingerprinting-analysis
+  repo: niespodd/browser-fingerprinting
+  url: https://github.com/niespodd/browser-fingerprinting
+  stars: 5017
+  last_push: '2026-05-12'
+  license: none
+  language: JavaScript
+  description: Continuously updated analysis and countermeasure cookbook for browser fingerprinting and bot-protection systems.
+  status: active
+  when_to_use: Read alongside source-code RE — it consolidates which signals each vendor checks (Canvas, WebGL, Audio, font, navigator) and how to spoof them coherently.
+  category: research-notes
+  why_added: The single most-cited public knowledge base for FP defense; essential companion to any RE list.
+- name: curl_cffi
+  slug: curl-cffi
+  repo: lexiforest/curl_cffi
+  url: https://github.com/lexiforest/curl_cffi
+  stars: 5617
+  last_push: '2026-05-13'
+  license: MIT
+  language: Python
+  description: Python binding for the curl-impersonate fork via cffi — HTTP client that perfectly mimics Chrome/Safari/Firefox TLS, JA3, JA4, and HTTP/2 fingerprints.
+  status: active
+  when_to_use: Use as a drop-in `requests` replacement when the target WAF (Cloudflare, Akamai, DataDome) fingerprints TLS/HTTP2 and a plain Python client gets blocked.
+  category: tls-http-fingerprint
+  why_added: The Python ecosystem's default JA3/JA4/H2 impersonation client; conspicuously missing from the curated list.
+- name: burp-awesome-tls
+  slug: burp-awesome-tls
+  repo: sleeyax/burp-awesome-tls
+  url: https://github.com/sleeyax/burp-awesome-tls
+  stars: 1805
+  last_push: '2026-05-13'
+  license: GPL-3.0
+  language: Java
+  description: Burp Suite extension that routes traffic through a uTLS-backed Go proxy so Burp can replay requests with realistic browser TLS fingerprints.
+  status: active
+  when_to_use: Use during manual app testing when the target WAF rejects Burp's native Java TLS handshake and you need JA3-correct request replay.
+  category: tls-http-fingerprint
+  why_added: Bridges Burp into the TLS-impersonation ecosystem — important for hands-on RE workflows; not currently listed.
+- name: tls-client
+  slug: tls-client
+  repo: bogdanfinn/tls-client
+  url: https://github.com/bogdanfinn/tls-client
+  stars: 1615
+  last_push: '2026-05-08'
+  license: BSD-4-Clause
+  language: Go
+  description: net/http-compatible Go HTTP client letting you select specific browser TLS fingerprints for outgoing requests.
+  status: active
+  when_to_use: Pick when building Go scrapers/proxies that need per-request switching between Chrome/Firefox/Safari TLS profiles to defeat JA3-based WAFs.
+  category: tls-http-fingerprint
+  why_added: The reference Go-side JA3 spoofing library, paired with cclient/utls — fills the Go gap in the TLS-impersonation category.
+- name: httpcloak
+  slug: httpcloak
+  repo: sardanioss/httpcloak
+  url: https://github.com/sardanioss/httpcloak
+  stars: 1038
+  last_push: '2026-05-11'
+  license: MIT
+  language: Go
+  description: Go HTTP client with browser-identical TLS/HTTP2 fingerprinting (JA3/JA4, Akamai H2, header order); supports HTTP/1.1, HTTP/2, HTTP/3.
+  status: active
+  when_to_use: Pick when you also need HTTP/3 (QUIC) impersonation alongside JA3/JA4 — most peers don't cover H3 yet.
+  category: tls-http-fingerprint
+  why_added: One of the few impersonation libraries with HTTP/3 support, addressing the "QUIC fingerprint" tail of the gap list.
+- name: wreq
+  slug: wreq
+  repo: 0x676e67/wreq
+  url: https://github.com/0x676e67/wreq
+  stars: 808
+  last_push: '2026-05-11'
+  license: Apache-2.0
+  language: Rust
+  description: Ergonomic Rust HTTP/WebSocket client with TLS, JA3, JA4, and HTTP/2 (Akamai) fingerprint impersonation; successor to rquest.
+  status: active
+  when_to_use: Use for high-throughput Rust scrapers or proxy services that must impersonate browser fingerprints at the cryptographic level.
+  category: tls-http-fingerprint
+  why_added: The current Rust-side impersonation client (after rquest was deprecated); covers the Rust gap and is actively maintained.
+- name: PortSwigger bypass-bot-detection
+  slug: bypass-bot-detection
+  repo: PortSwigger/bypass-bot-detection
+  url: https://github.com/PortSwigger/bypass-bot-detection
+  stars: 487
+  last_push: '2025-09-09'
+  license: Apache-2.0
+  language: Java
+  description: Official PortSwigger Burp extension that mutates cipher suite ordering to bypass TLS-fingerprint-based bot detection.
+  status: active
+  when_to_use: Pair with Burp when you need a lightweight, in-suite JA3 mutator without standing up an external proxy.
+  category: tls-http-fingerprint
+  why_added: Vendor-supported Burp extension covering the same gap with simpler ergonomics than burp-awesome-tls.
+- name: fingerproxy
+  slug: fingerproxy
+  repo: wi1dcard/fingerproxy
+  url: https://github.com/wi1dcard/fingerproxy
+  stars: 316
+  last_push: '2025-05-25'
+  license: Apache-2.0
+  language: Go
+  description: HTTPS reverse proxy that calculates JA3, JA4, and Akamai HTTP/2 fingerprints from incoming clients and forwards them to backends via headers.
+  status: active
+  when_to_use: Deploy when researching anti-bot detection logic — sit it in front of a backend to see exactly which JA3/JA4/H2 fingerprint your scraper presents.
+  category: tls-http-fingerprint
+  why_added: Lets reverse-engineers build their own "fingerprint mirror" without commercial services like browserleaks.
+- name: nginx-ssl-fingerprint
+  slug: nginx-ssl-fingerprint
+  repo: phuslu/nginx-ssl-fingerprint
+  url: https://github.com/phuslu/nginx-ssl-fingerprint
+  stars: 224
+  last_push: '2026-04-19'
+  license: BSD-2-Clause
+  language: C
+  description: nginx patch and module that computes JA3, JA4, and HTTP/2 fingerprints in-line at the proxy layer.
+  status: active
+  when_to_use: Use when standing up a self-hosted test harness on nginx to capture realistic JA3/JA4/H2 of scrapers, mobile apps, and stealth browsers.
+  category: tls-http-fingerprint
+  why_added: Nginx-side alternative to fingerproxy; common in research blogs but absent from the list.
+- name: read-tls-client-hello
+  slug: read-tls-client-hello
+  repo: httptoolkit/read-tls-client-hello
+  url: https://github.com/httptoolkit/read-tls-client-hello
+  stars: 56
+  last_push: '2026-03-25'
+  license: Apache-2.0
+  language: TypeScript
+  description: Pure-Node module that parses incoming TLS ClientHello bytes and computes the resulting fingerprint without a native dep.
+  status: active
+  when_to_use: Embed in a Node-based detection or research server when you need JA3/JA4 calculation without rebuilding nginx or running a Go proxy.
+  category: tls-http-fingerprint
+  why_added: The only pure-JS JA3 calculator from a reputable maintainer (httptoolkit) — fills the Node-side gap.
+- name: Perfetto
+  slug: perfetto
+  repo: google/perfetto
+  url: https://github.com/google/perfetto
+  stars: 5940
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: C++
+  description: Production-grade client-side tracing, profiling, and analysis for complex software systems.
+  latest_release: v55.2 (2026-05-14)
+  status: active
+  when_to_use: Open Chrome trace JSON for SQL-queryable analysis of long task chains and main-thread stalls.
+  category: tracing
+- name: datadome-vm
+  slug: datadome-vm
+  repo: xKiian/datadome-vm
+  url: https://github.com/xKiian/datadome-vm
+  stars: 107
+  last_push: '2026-02-16'
+  license: none
+  language: JavaScript
+  description: Active reverse engineering notes and tooling for the new DataDome JavaScript VM (post-2024 redesign).
+  status: active
+  when_to_use: Consult when statically analyzing or instrumenting DataDome's interpreter-based VM to extract the integrity signal generation.
+  category: vendor-protocol-research
+  why_added: Directly fills the "DataDome JS-VM reverse engineering" gap explicitly called out in the brief.
+- name: hyper-sdk-py
+  slug: hyper-sdk-py
+  repo: Hyper-Solutions/hyper-sdk-py
+  url: https://github.com/Hyper-Solutions/hyper-sdk-py
+  stars: 58
+  last_push: '2026-03-09'
+  license: MIT
+  language: Python
+  description: Python SDK for Hyper Solutions' commercial bypass service — programmatic challenge solving and sensor/cookie generation for Akamai, Incapsula, Kasada, and DataDome.
+  status: active
+  when_to_use: Reference when reversing the wire format of Akamai sensor data / Kasada x-kpsdk-cd payloads — the SDK documents the exact fields you'll see.
+  category: vendor-protocol-research
+  why_added: One of the few public/maintained references for Kasada and Akamai sensor payload structure; useful as RE artifact, not just bypass service.
+- name: binaryen
+  slug: binaryen
+  repo: WebAssembly/binaryen
+  url: https://github.com/WebAssembly/binaryen
+  stars: 8457
+  last_push: '2026-05-17'
+  license: Apache-2.0
+  language: WebAssembly
+  description: Optimizer and compiler/toolchain library for WebAssembly
+  latest_release: version_129 (2026-04-01)
+  status: active
+  when_to_use: Run wasm-opt to shrink or transform .wasm modules and use wasm-dis for higher-level disassembly than wabt's raw WAT.
+  category: wasm-reverse
+- name: wabt
+  slug: wabt
+  repo: WebAssembly/wabt
+  url: https://github.com/WebAssembly/wabt
+  stars: 7979
+  last_push: '2026-05-07'
+  license: Apache-2.0
+  language: C++
+  description: The WebAssembly Binary Toolkit
+  latest_release: 1.0.41 (2026-05-07)
+  status: active
+  when_to_use: Convert .wasm to readable .wat text format with wasm2wat, or assemble .wat back to .wasm; the reference toolkit when you need stable WAT output.
+  category: wasm-reverse
+- name: wasm-tools
+  slug: wasm-tools
+  repo: bytecodealliance/wasm-tools
+  url: https://github.com/bytecodealliance/wasm-tools
+  stars: 1740
+  last_push: '2026-05-15'
+  license: Apache-2.0
+  language: Rust
+  description: CLI and Rust libraries for low-level manipulation of WebAssembly modules
+  latest_release: v1.249.0 (2026-05-15)
+  status: active
+  when_to_use: Inspect, validate, and mutate Component Model / WASI Preview 2 modules where wabt and binaryen lag behind the spec.
+  category: wasm-reverse
+- name: twiggy
+  slug: twiggy
+  repo: rustwasm/twiggy
+  url: https://github.com/rustwasm/twiggy
+  stars: 1426
+  last_push: '2026-02-18'
+  license: Apache-2.0
+  language: Rust
+  description: Twiggy is a code size profiler
+  latest_release: no releases
+  status: active
+  when_to_use: Attribute bytes inside a .wasm binary to specific functions and call paths when hunting down code-size bloat.
+  category: wasm-reverse
+  notes: Repo is archived on GitHub but received a push in 2026; treat as low-maintenance.
+- name: Cetus
+  slug: cetus
+  repo: Qwokka/Cetus
+  url: https://github.com/Qwokka/Cetus
+  stars: 626
+  last_push: '2024-02-06'
+  license: Apache-2.0
+  language: JavaScript
+  description: Browser extension for hacking WebAssembly games a la Cheat Engine
+  latest_release: v1.04 (2023-06-11)
+  status: dead
+  when_to_use: Live memory scanning and patching of running WebAssembly games in-browser, Cheat-Engine style; no maintained alternative for this niche.
+  category: wasm-reverse
+  notes: Original query targeted jakobwesthoff/Cetus which does not exist; canonical repo is Qwokka/Cetus.
+- name: NotDec
+  slug: notdec
+  repo: NotDec/NotDec
+  url: https://github.com/NotDec/NotDec
+  stars: 92
+  last_push: '2026-05-13'
+  license: none
+  language: C++
+  description: WebAssembly decompiler and static-analysis framework built on LLVM IR; lifts wasm to readable pseudo-C.
+  status: active
+  when_to_use: Use when an anti-bot vendor (Akamai, Kasada, Cloudflare bm-vm) ships a heavy WASM blob and `wasm-decompile` output is too low-level to follow.
+  category: wasm-reverse
+  why_added: Directly addresses "WASM virtualized obfuscation" — a category currently uncovered beyond the basic wabt/binaryen toolchain.

@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "awesome-web-reversing verified.json",
+  "type": "object",
+  "required": ["generated_at", "tool_count", "tools"],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC timestamp of the verifier run that produced this file."
+    },
+    "tool_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "tools": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/tool" }
+    }
+  },
+  "definitions": {
+    "tool": {
+      "type": "object",
+      "required": ["name", "slug", "status", "category", "when_to_use"],
+      "properties": {
+        "name": { "type": "string", "description": "Display name." },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Kebab-case unique identifier." },
+        "repo": {
+          "type": ["string", "null"],
+          "pattern": "^[\\w.-]+/[\\w.-]+$",
+          "description": "GitHub owner/repo, or null if not on GitHub."
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "actual_repo": {
+          "type": "string",
+          "description": "Canonical owner/repo if the listed one redirected (kept for backward compat — prefer `repo` + `renamed_from`)."
+        },
+        "renamed_from": {
+          "type": "string",
+          "description": "Previous owner/repo before transfer. Set independently of status — a renamed repo can still be active or dead."
+        },
+        "archived": {
+          "type": "boolean",
+          "description": "GitHub's `archived` flag — explicit signal that maintainers have shut down the repo, stronger than just inactivity."
+        },
+        "stars": { "type": ["integer", "null"], "minimum": 0 },
+        "last_push": {
+          "type": ["string", "null"],
+          "description": "ISO date or datetime of last push."
+        },
+        "license": { "type": ["string", "null"], "description": "SPDX identifier or 'Other' / 'None'." },
+        "language": { "type": ["string", "null"], "description": "Primary language per GitHub linguist." },
+        "description": { "type": ["string", "null"], "description": "Upstream repo description." },
+        "latest_release": { "type": ["string", "null"], "description": "Tag + date, or 'no releases'." },
+        "status": {
+          "type": "string",
+          "enum": ["active", "stale", "dead", "missing"],
+          "description": "active: <6mo push · stale: 6-18mo · dead: >18mo · missing: 404. Renames are tracked via `renamed_from`, not via status."
+        },
+        "when_to_use": {
+          "type": "string",
+          "description": "One sentence — concrete scenario where this tool beats alternatives."
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "transport-mitm",
+            "network-mitm",
+            "tls-http-fingerprint",
+            "pre-bootstrap-injection",
+            "cdp-instrumentation",
+            "browser-automation",
+            "anti-detect-browser",
+            "fingerprint-generation",
+            "function-hooking",
+            "deobfuscation",
+            "ast-transform",
+            "ai-deobfuscation",
+            "ai-assisted-re",
+            "bundler-analysis",
+            "memory-forensics",
+            "tracing",
+            "time-travel",
+            "replay-debugger",
+            "native-instrumentation",
+            "wasm-reverse",
+            "electron-reverse",
+            "hermes-reverse",
+            "framework-devtools",
+            "browser-extension",
+            "anti-anti-debug",
+            "anti-bot-recon",
+            "anti-bot-benchmarks",
+            "research-notes",
+            "vendor-protocol-research",
+            "mcp-toolkit",
+            "alt-debugger",
+            "react-native-instrumentation"
+          ]
+        },
+        "install": { "type": "string", "description": "One shell command to get the tool running." },
+        "notes": { "type": "string" },
+        "why_added": { "type": "string", "description": "For gap-fill entries — what the tool covers that base list missed." }
+      }
+    }
+  }
+}
