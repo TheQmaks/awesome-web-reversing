@@ -1,6 +1,6 @@
 # Tool Catalog
 
-_Generated 2026-05-18T09:45:13.877241+00:00 from `data/verified.json`. 99 entries._
+_Generated 2026-05-18T09:54:11.474155+00:00 from `data/verified.json`. 99 entries._
 
 **Status legend:** 🟢 active (push < 6mo) · 🟡 stale (6-18mo) · 🔴 dead (>18mo) · ⚫ missing/hallucinated · 🗄 GitHub-archived (additional flag)
 
@@ -76,7 +76,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 mitmproxy
 
-- **Repo:** [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) · ⭐ 43,580 · Python · MIT
+- **Repo:** [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) · ⭐ 43,581 · Python · MIT
 - **Last push:** 2026-05-16 · **Status:** `active`
 - **When to use:** Intercept and rewrite TLS-encrypted XHR/fetch traffic from a CLI with scriptable Python addons.
 - **Upstream:** An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
@@ -207,7 +207,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Scrapling
 
-- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 50,872 · Python · BSD-3-Clause
+- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 50,873 · Python · BSD-3-Clause
 - **Last push:** 2026-05-16 · **Status:** `active`
 - **When to use:** Reach for it when you need a Python-first scraping stack that survives Cloudflare/Turnstile and offers stealth fetcher + AsyncFetcher + PlayWrightFetcher in one library.
 - **Upstream:** 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
@@ -416,7 +416,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 webcrack
 
-- **Repo:** [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) · ⭐ 2,618 · TypeScript · MIT
+- **Repo:** [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) · ⭐ 2,619 · TypeScript · MIT
 - **Last push:** 2026-05-17 · **Status:** `active`
 - **When to use:** One-shot CLI to undo obfuscator.io plus split a webpack/browserify bundle back into per-module files.
 - **Upstream:** Deobfuscate obfuscator.io, unminify and unpack bundled javascript

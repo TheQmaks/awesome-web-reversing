@@ -147,7 +147,7 @@
   slug: scrapling
   repo: D4Vinci/Scrapling
   url: https://github.com/D4Vinci/Scrapling
-  stars: 50872
+  stars: 50873
   last_push: '2026-05-16'
   license: BSD-3-Clause
   language: Python
@@ -517,7 +517,7 @@
   slug: webcrack
   repo: j4k0xb/webcrack
   url: https://github.com/j4k0xb/webcrack
-  stars: 2618
+  stars: 2619
   last_push: '2026-05-17'
   license: MIT
   language: TypeScript
@@ -995,7 +995,7 @@
   slug: mitmproxy
   repo: mitmproxy/mitmproxy
   url: https://github.com/mitmproxy/mitmproxy
-  stars: 43580
+  stars: 43581
   last_push: '2026-05-16'
   license: MIT
   language: Python
