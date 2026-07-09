@@ -130,7 +130,7 @@ const wrap = (origFn, patchedFn) => {
 - Most awesome-lists rot. Entries from 2018 sit next to entries from 2024 with no marker.
 - The tool you click might be abandoned, archived, or replaced by something with the same name.
 
-**Do instead:** Use this repo. Every entry has `last_push`, `stars`, `status`, and `when_to_use`. Run `scripts/verify.sh` to refresh, or check [verified.json](../data/verified.json) timestamp.
+**Do instead:** Use this repo. Every entry has `last_push`, `stars`, `status`, and `when_to_use`. Run `scripts/verify.py` to refresh, or check [verified.json](../data/verified.json) timestamp.
 
 ---
 

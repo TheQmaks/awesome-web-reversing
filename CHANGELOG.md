@@ -12,7 +12,7 @@ Initial release.
 - Per-vendor playbooks (`docs/targets.md`): Cloudflare, DataDome, Akamai, PerimeterX/HUMAN, Kasada, Imperva, ChatGPT-SSE, Electron, Hermes/React Native.
 - Anti-patterns guide (`docs/anti-patterns.md`).
 - AI-agent guide (`docs/for-ai-agents.md`).
-- Verifier scripts (`scripts/verify.sh`, `scripts/merge.py`, `scripts/render_catalog.py`).
+- Verifier scripts (`scripts/verify.py`, `scripts/render_catalog.py`).
 - JSON Schema for `verified.json` (`data/schema.json`).
 
 ### Notable findings during seeding

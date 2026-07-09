@@ -4,7 +4,7 @@ If you (the AI agent) have been asked to reverse-engineer a defended JavaScript 
 
 ## What this repo is
 
-A curated, **verified** (`scripts/verify.sh` runs against GitHub API) catalog of tools and workflows for runtime JavaScript reverse engineering, oriented at modern (2024-2026) anti-bot, anti-debug, and obfuscation systems.
+A curated, **verified** (`scripts/verify.py` runs against GitHub API) catalog of tools and workflows for runtime JavaScript reverse engineering, oriented at modern (2024-2026) anti-bot, anti-debug, and obfuscation systems.
 
 ## How to use it (recommended sequence)
 
@@ -71,7 +71,7 @@ If the user gives you a vague task like "help me understand this site's anti-bot
 ## Refreshing
 
 ```bash
-bash scripts/verify.sh   # rebuilds data/verified.json from data/tools.yaml
+python scripts/verify.py   # rebuilds data/verified.json from data/tools.yaml
 ```
 
 CI runs this weekly. If you're using this offline, the timestamp in `verified.json` tells you how stale your data is.
