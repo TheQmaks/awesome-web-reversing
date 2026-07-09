@@ -117,40 +117,18 @@ wasm-objdump -j Import -x kpsdk.wasm
 
 ---
 
-## ChatGPT-style SSE-based JS clients
+## SSE-based streaming clients (generic)
 
-**Identifiers:** Response `content-type: text/event-stream`, `event: delta_encoding` markers, `.dat` extensions in some capture tools.
+**Identifiers:** Response `content-type: text/event-stream`, line-delimited `event:` / `data:` framing, sometimes wrapped in binary blobs for capture tools.
 
-**Approach (from your gptclient-go session, May 12 2026):**
+Many modern LLM and chat APIs stream responses as Server-Sent Events with custom event-name conventions (delta encoding, partial JSON merging, tool-call interleaving). RE generally follows the same shape:
 
-1. **Capture protocol shape:**
-   ```bash
-   mitmdump --listen-port 8080 --save-stream-file chatgpt.flow
-   # Filter to /backend-anon/conversation in real time
-   ```
+1. **Capture the wire format** with mitmproxy `--save-stream-file` and replay deterministically. SSE is plain text under TLS, so a standard MITM CA install is enough.
+2. **Parse delta encoding** with a stateful reader — accumulate `data:` lines under each `event:` header until a blank line yields a complete message.
+3. **Pass anti-bot fingerprint checks** before the SSE endpoint will respond — typically `navigator.webdriver`, plugin counts, `window.chrome` shape, User-Agent without `HeadlessChrome`. Use `Camoufox` or `Patchright` for clean fingerprints rather than monkey-patching at runtime.
+4. **Inspect tool-call protocols** — many LLM streams interleave structured tool-invocation events with content deltas. The actual tool name and arguments often live in metadata fields separate from any user-visible "search" flag.
 
-2. **Decode the SSE stream:** Server-Sent Events use line-delimited JSON deltas after `event:` lines. Parse with stateful reader:
-   ```python
-   def parse_sse(stream):
-       event, data = None, []
-       for line in stream:
-           if line.startswith(b"event: "):
-               event = line[7:].strip()
-           elif line.startswith(b"data: "):
-               data.append(line[6:])
-           elif line == b"\n":
-               yield event, b"".join(data)
-               event, data = None, []
-   ```
-
-3. **Reverse the cloak/stealth layer:** ChatGPT's anonymous endpoints validate fingerprints. Use Camoufox or a properly-patched CloakBrowser. Key surfaces:
-   - `navigator.webdriver` (must be undefined or false)
-   - `navigator.plugins.length` (real browsers have ≥3)
-   - `window.chrome` (must exist as object, not undefined)
-   - User-Agent without `HeadlessChrome`
-   - `/sentinel/chat-requirements/prepare` returns 200, not 4xx
-
-4. **Find the tool invocation pattern:** ChatGPT search uses `SonicBrowserTool` invoked via the tool-calling mechanism. The `is_search` field is often null even when search runs — don't filter on it. Match on `tool_name == "SonicBrowserTool"` or successful 153KB+ responses (vs 34-byte errors).
+This pattern repeats across vendors; specific endpoint paths, tool names, and integrity-check fields are vendor-private and outside the scope of this guide.
 
 ---
 
