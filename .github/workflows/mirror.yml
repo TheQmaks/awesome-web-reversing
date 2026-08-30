@@ -1,0 +1,43 @@
+name: Mirror catalog repos
+
+# Keeps a durable git mirror of every live catalog entry under an archive org,
+# so entries survive upstream deletion. No-op until MIRROR_ORG (repo variable)
+# and MIRROR_TOKEN (repo secret) are configured.
+
+on:
+  schedule:
+    # Monthly, 1st at 04:00 UTC (full mirrors are heavy; monthly is enough).
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Mirror live repos into the archive org
+        env:
+          MIRROR_ORG: ${{ vars.MIRROR_ORG }}
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          GH_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: python scripts/mirror.py
+
+      - name: Commit refreshed manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet MIRRORS.md 2>/dev/null; then
+            echo "No manifest change."
+            exit 0
+          fi
+          git add MIRRORS.md
+          git commit -m "chore: refresh mirror manifest ($(date -u +%Y-%m-%d))"
+          git push
