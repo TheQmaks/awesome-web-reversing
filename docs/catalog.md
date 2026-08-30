@@ -1,6 +1,6 @@
 # Tool Catalog
 
-_Generated 2026-08-30T09:04:20.157290+00:00 from `data/verified.json`. 101 entries._
+_Generated 2026-08-30T09:14:06.175816+00:00 from `data/verified.json`. 101 entries._
 
 **Status legend:** 🟢 active (push < 6mo) · 🟡 stale (6-18mo) · 🔴 dead (>18mo) · ⚫ missing/hallucinated · 🗄 GitHub-archived (additional flag)
 
@@ -103,7 +103,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 curl_cffi
 
-- **Repo:** [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) · ⭐ 6,419 · Python · MIT
+- **Repo:** [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) · ⭐ 6,420 · Python · MIT
 - **Last push:** 2026-08-28 · **Status:** `active`
 - **When to use:** Use as a drop-in `requests` replacement when the target WAF (Cloudflare, Akamai, DataDome) fingerprints TLS/HTTP2 and a plain Python client gets blocked.
 - **Upstream:** Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.
@@ -207,7 +207,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Scrapling
 
-- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 77,264 · Python · BSD-3-Clause
+- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 77,266 · Python · BSD-3-Clause
 - **Last push:** 2026-08-25 · **Status:** `active`
 - **When to use:** Reach for it when you need a Python-first scraping stack that survives Cloudflare/Turnstile and offers stealth fetcher + AsyncFetcher + PlayWrightFetcher in one library.
 - **Upstream:** 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
@@ -529,7 +529,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 ast-grep
 
-- **Repo:** [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) · ⭐ 15,694 · Rust · MIT
+- **Repo:** [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) · ⭐ 15,695 · Rust · MIT
 - **Last push:** 2026-08-30 · **Status:** `active`
 - **When to use:** Grep-style pattern matching over JS AST for triage when you do not want to write a full Babel visitor.
 - **Upstream:** ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
