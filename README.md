@@ -5,7 +5,7 @@
 
 **Differentiator from existing awesome-lists:** every entry is verified against the GitHub API. Dead and abandoned tools are marked or excluded. The catalog is automatically refreshable (`scripts/verify.py`).
 
-**v1 stats (2026-05-18):** 99 verified tools — 🟢 72 active · 🟡 10 stale · 🔴 15 dead · ⚫ 2 missing/hallucinated. Renames are tracked via `renamed_from` field, not status. Browse the full catalog in [docs/catalog.md](docs/catalog.md) or query `data/verified.json` directly.
+**v1 stats (2026-08-30):** 101 verified tools — 🟢 66 active · 🟡 19 stale · 🔴 14 dead · ⚫ 2 missing/hallucinated. Renames are tracked via `renamed_from` field, not status. Browse the full catalog in [docs/catalog.md](docs/catalog.md) or query `data/verified.json` directly.
 
 ---
 
