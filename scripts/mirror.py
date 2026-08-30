@@ -59,7 +59,13 @@ def mirror_one(owner: str, repo: str) -> str:
         bare = os.path.join(tmp, "m.git")
         if run(["git", "clone", "--mirror", src, bare]).returncode != 0:
             return "clone-failed"
-        return "ok" if run(["git", "-C", bare, "push", "--mirror", dst]).returncode == 0 else "push-failed"
+        # Push only branches and tags. `push --mirror` also tries to push
+        # GitHub's read-only refs/pull/* hidden refs, which the remote rejects
+        # ("deny updating a hidden ref"), failing the whole push even though
+        # heads/tags went through. An explicit refspec avoids the hidden refs.
+        p = run(["git", "-C", bare, "push", "--force", "--prune", dst,
+                 "refs/heads/*:refs/heads/*", "refs/tags/*:refs/tags/*"])
+        return "ok" if p.returncode == 0 else "push-failed"
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
