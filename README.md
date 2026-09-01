@@ -5,7 +5,7 @@
 
 **Differentiator from existing awesome-lists:** every entry is verified against the GitHub API. Dead and abandoned tools are marked or excluded. The catalog is automatically refreshable (`scripts/verify.py`).
 
-**v1 stats (2026-08-30):** 101 verified tools — 🟢 66 active · 🟡 19 stale · 🔴 14 dead · ⚫ 2 missing/hallucinated. Renames are tracked via `renamed_from` field, not status. Browse the full catalog in [docs/catalog.md](docs/catalog.md) or query `data/verified.json` directly.
+**v1 stats (2026-09-01):** 99 verified tools — 🟢 65 active · 🟡 18 stale · 🔴 14 dead · ⚫ 2 missing/hallucinated. Renames are tracked via `renamed_from` field, not status. Browse the full catalog in [docs/catalog.md](docs/catalog.md) or query `data/verified.json` directly.
 
 ---
 
@@ -50,7 +50,6 @@ The full verified catalog lives in [data/verified.json](data/verified.json). See
 | WASM reverse | `WABT` (`wasm-decompile`), `NotDec` (LLVM-IR-based) | `Binaryen`, `Cetus` (live), `wasm-tools` |
 | Electron reverse | `@electron/asar` + version-matched V8 d8 | `electronegativity` for config audit |
 | Hermes reverse | `hermes-dec`, `hermes-decomp`, `hbctool` | `heresy` for live hooks |
-| Vendor protocol RE | `xKiian/datadome-vm`, `hyper-sdk-py` (Kasada/Akamai docs) | — |
 | MCP for AI agents | `jshookmcp` (402 tools across 36 domains), `stealth-browser-mcp` | — |
 
 ---

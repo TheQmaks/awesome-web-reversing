@@ -1,6 +1,6 @@
 # Tool Catalog
 
-_Generated 2026-08-31T12:33:09.213651+00:00 from `data/verified.json`. 101 entries._
+_Generated 2026-09-01T00:33:51.840019+00:00 from `data/verified.json`. 99 entries._
 
 **Status legend:** 🟢 active (push < 6mo) · 🟡 stale (6-18mo) · 🔴 dead (>18mo) · ⚫ missing/hallucinated · 🗄 GitHub-archived (additional flag)
 
@@ -49,26 +49,6 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 - **When to use:** Read alongside source-code RE — it consolidates which signals each vendor checks (Canvas, WebGL, Audio, font, navigator) and how to spoof them coherently.
 - **Upstream:** Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?
 - **Why included:** The single most-cited public knowledge base for FP defense; essential companion to any RE list.
-
----
-
-## Layer 0 — Vendor protocol RE artifacts
-
-### 🟡 datadome-vm
-
-- **Repo:** [xKiian/datadome-vm](https://github.com/xKiian/datadome-vm) · ⭐ 131 · JavaScript · None
-- **Last push:** 2026-02-16 · **Status:** `stale`
-- **When to use:** Consult when statically analyzing or instrumenting DataDome's interpreter-based VM to extract the integrity signal generation.
-- **Upstream:** Reverse engineering the new Datadome VM 🔥
-- **Why included:** Directly fills the "DataDome JS-VM reverse engineering" gap explicitly called out in the brief.
-
-### 🟢 hyper-sdk-py
-
-- **Repo:** [Hyper-Solutions/hyper-sdk-py](https://github.com/Hyper-Solutions/hyper-sdk-py) · ⭐ 68 · Python · MIT
-- **Last push:** 2026-06-17 · **Status:** `active`
-- **When to use:** Reference when reversing the wire format of Akamai sensor data / Kasada x-kpsdk-cd payloads — the SDK documents the exact fields you'll see.
-- **Upstream:** Python SDK for Bot Protection Bypass - Automate Akamai, Incapsula, Kasada, and DataDome. No browsers required. Solve challenges and generate valid sensors/cookies via API.
-- **Why included:** One of the few public/maintained references for Kasada and Akamai sensor payload structure; useful as RE artifact, not just bypass service.
 
 ---
 

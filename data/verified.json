@@ -1,10 +1,10 @@
 {
   "$schema": "./schema.json",
-  "generated_at": "2026-08-31T12:33:09.213651+00:00",
-  "tool_count": 101,
+  "generated_at": "2026-09-01T00:33:51.840019+00:00",
+  "tool_count": 99,
   "status_counts": {
-    "active": 66,
-    "stale": 19,
+    "active": 65,
+    "stale": 18,
     "dead": 14,
     "missing": 2
   },
@@ -1401,36 +1401,6 @@
       "status": "active",
       "when_to_use": "Open Chrome trace JSON for SQL-queryable analysis of long task chains and main-thread stalls.",
       "category": "tracing"
-    },
-    {
-      "name": "datadome-vm",
-      "slug": "datadome-vm",
-      "repo": "xKiian/datadome-vm",
-      "url": "https://github.com/xKiian/datadome-vm",
-      "stars": 131,
-      "last_push": "2026-02-16",
-      "license": "None",
-      "language": "JavaScript",
-      "description": "Reverse engineering the new Datadome VM 🔥",
-      "status": "stale",
-      "when_to_use": "Consult when statically analyzing or instrumenting DataDome's interpreter-based VM to extract the integrity signal generation.",
-      "category": "vendor-protocol-research",
-      "why_added": "Directly fills the \"DataDome JS-VM reverse engineering\" gap explicitly called out in the brief."
-    },
-    {
-      "name": "hyper-sdk-py",
-      "slug": "hyper-sdk-py",
-      "repo": "Hyper-Solutions/hyper-sdk-py",
-      "url": "https://github.com/Hyper-Solutions/hyper-sdk-py",
-      "stars": 68,
-      "last_push": "2026-06-17",
-      "license": "MIT",
-      "language": "Python",
-      "description": "Python SDK for Bot Protection Bypass - Automate Akamai, Incapsula, Kasada, and DataDome. No browsers required. Solve challenges and generate valid sensors/cookies via API.",
-      "status": "active",
-      "when_to_use": "Reference when reversing the wire format of Akamai sensor data / Kasada x-kpsdk-cd payloads — the SDK documents the exact fields you'll see.",
-      "category": "vendor-protocol-research",
-      "why_added": "One of the few public/maintained references for Kasada and Akamai sensor payload structure; useful as RE artifact, not just bypass service."
     },
     {
       "name": "binaryen",
