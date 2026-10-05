@@ -1,6 +1,6 @@
 # Tool Catalog
 
-_Generated 2026-09-28T12:46:20.346663+00:00 from `data/verified.json`. 99 entries._
+_Generated 2026-10-05T13:27:31.428176+00:00 from `data/verified.json`. 99 entries._
 
 **Status legend:** 🟢 active (push < 6mo) · 🟡 stale (6-18mo) · 🔴 dead (>18mo) · ⚫ missing/hallucinated · 🗄 GitHub-archived (additional flag)
 
@@ -12,7 +12,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 creepjs
 
-- **Repo:** [abrahamjuliot/creepjs](https://github.com/abrahamjuliot/creepjs) · ⭐ 2,516 · TypeScript · MIT
+- **Repo:** [abrahamjuliot/creepjs](https://github.com/abrahamjuliot/creepjs) · ⭐ 2,520 · TypeScript · MIT
 - **Last push:** 2026-06-11 · **Status:** `active`
 - **When to use:** Run your stealth browser against creepjs.com to find which spoofed APIs are still inconsistent (lies) before the real WAF catches them.
 - **Upstream:** Creepy device and browser fingerprinting
@@ -20,7 +20,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 scrapfly Antibot-Detector
 
-- **Repo:** [scrapfly/Antibot-Detector](https://github.com/scrapfly/Antibot-Detector) · ⭐ 520 · JavaScript · NOASSERTION
+- **Repo:** [scrapfly/Antibot-Detector](https://github.com/scrapfly/Antibot-Detector) · ⭐ 592 · JavaScript · NOASSERTION
 - **Last push:** 2026-09-08 · **Status:** `active`
 - **When to use:** Run as a first-pass recon step on a defended SPA to know exactly which vendor(s) you're up against before picking your bypass strategy.
 - **Upstream:** Real-time detection of anti-bot systems, CAPTCHAs & fingerprinting techniques. Identifies Cloudflare, Akamai, DataDome, reCAPTCHA, hCaptcha, Shape Security & more with confidence scoring and advanced capture tools.
@@ -32,7 +32,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 browsers-benchmark
 
-- **Repo:** [techinz/browsers-benchmark](https://github.com/techinz/browsers-benchmark) · ⭐ 393 · Python · MIT
+- **Repo:** [techinz/browsers-benchmark](https://github.com/techinz/browsers-benchmark) · ⭐ 397 · Python · MIT
 - **Last push:** 2026-09-01 · **Status:** `active`
 - **When to use:** Consult before picking a stealth stack — gives empirical bypass rates per vendor rather than relying on vendor claims.
 - **Upstream:** Browser automation engine benchmark - Test bypass rates, performance & stealth against Cloudflare, DataDome, reCAPTCHA, Kasada, Imperva, Akamai, PerimeterX  and other bot detection systems. Find the best browser for scraping.
@@ -44,7 +44,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 niespodd browser-fingerprinting
 
-- **Repo:** [niespodd/browser-fingerprinting](https://github.com/niespodd/browser-fingerprinting) · ⭐ 5,145 · JavaScript · None
+- **Repo:** [niespodd/browser-fingerprinting](https://github.com/niespodd/browser-fingerprinting) · ⭐ 5,147 · JavaScript · None
 - **Last push:** 2026-07-27 · **Status:** `active`
 - **When to use:** Read alongside source-code RE — it consolidates which signals each vendor checks (Canvas, WebGL, Audio, font, navigator) and how to spoof them coherently.
 - **Upstream:** Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?
@@ -56,22 +56,22 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 mitmproxy
 
-- **Repo:** [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) · ⭐ 45,178 · Python · MIT
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) · ⭐ 45,262 · Python · MIT
+- **Last push:** 2026-10-03 · **Status:** `active`
 - **When to use:** Intercept and rewrite TLS-encrypted XHR/fetch traffic from a CLI with scriptable Python addons.
 - **Upstream:** An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 - **Latest release:** v12.2.3 (2026-05-12)
 
 ### 🟡 HTTP Toolkit
 
-- **Repo:** [httptoolkit/httptoolkit](https://github.com/httptoolkit/httptoolkit) · ⭐ 3,641 · — · None
+- **Repo:** [httptoolkit/httptoolkit](https://github.com/httptoolkit/httptoolkit) · ⭐ 3,645 · — · None
 - **Last push:** 2026-02-04 · **Status:** `stale`
 - **When to use:** One-click intercept of a specific Chrome/Node/Electron process with auto-injected CA trust.
 - **Upstream:** HTTP Toolkit is a beautiful & open-source tool for debugging, testing and building with HTTP(S) on Windows, Linux & Mac  :tada:  Open an issue here to give feedback or ask for help.
 
 ### 🟢 Caido
 
-- **Repo:** [caido/caido](https://github.com/caido/caido) · ⭐ 2,608 · Shell · None
+- **Repo:** [caido/caido](https://github.com/caido/caido) · ⭐ 2,644 · Shell · None
 - **Last push:** 2026-09-04 · **Status:** `active`
 - **When to use:** Modern Burp-style web proxy with a lighter footprint when auditing single-page-app API traffic.
 - **Upstream:** 🚀 Caido releases, wiki and roadmap
@@ -83,15 +83,15 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 curl_cffi
 
-- **Repo:** [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) · ⭐ 6,600 · Python · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) · ⭐ 6,652 · Python · MIT
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Use as a drop-in `requests` replacement when the target WAF (Cloudflare, Akamai, DataDome) fingerprints TLS/HTTP2 and a plain Python client gets blocked.
 - **Upstream:** Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.
 - **Why included:** The Python ecosystem's default JA3/JA4/H2 impersonation client; conspicuously missing from the curated list.
 
 ### 🟢 burp-awesome-tls
 
-- **Repo:** [sleeyax/burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) · ⭐ 1,899 · Java · GPL-3.0
+- **Repo:** [sleeyax/burp-awesome-tls](https://github.com/sleeyax/burp-awesome-tls) · ⭐ 1,897 · Java · GPL-3.0
 - **Last push:** 2026-09-24 · **Status:** `active`
 - **When to use:** Use during manual app testing when the target WAF rejects Burp's native Java TLS handshake and you need JA3-correct request replay.
 - **Upstream:** Burp extension to evade TLS fingerprinting. Bypass WAF, spoof any browser.
@@ -99,7 +99,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 tls-client
 
-- **Repo:** [bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client) · ⭐ 1,865 · Go · BSD-4-Clause
+- **Repo:** [bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client) · ⭐ 1,875 · Go · BSD-4-Clause
 - **Last push:** 2026-09-04 · **Status:** `active`
 - **When to use:** Pick when building Go scrapers/proxies that need per-request switching between Chrome/Firefox/Safari TLS profiles to defeat JA3-based WAFs.
 - **Upstream:** net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests.
@@ -107,7 +107,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 httpcloak
 
-- **Repo:** [sardanioss/httpcloak](https://github.com/sardanioss/httpcloak) · ⭐ 1,320 · Go · MIT
+- **Repo:** [sardanioss/httpcloak](https://github.com/sardanioss/httpcloak) · ⭐ 1,329 · Go · MIT
 - **Last push:** 2026-09-02 · **Status:** `active`
 - **When to use:** Pick when you also need HTTP/3 (QUIC) impersonation alongside JA3/JA4 — most peers don't cover H3 yet.
 - **Upstream:** Go HTTP client with browser-identical TLS/HTTP2 fingerprinting. Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic level (JA3/JA4, Akamai fingerprint, header order). Supports HTTP/1.1, HTTP/2, HTTP/3, sessions, cookies, and proxies.
@@ -115,8 +115,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 wreq
 
-- **Repo:** [0x676e67/wreq](https://github.com/0x676e67/wreq) · ⭐ 1,050 · Rust · Apache-2.0
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Repo:** [0x676e67/wreq](https://github.com/0x676e67/wreq) · ⭐ 1,059 · Rust · Apache-2.0
+- **Last push:** 2026-10-03 · **Status:** `active`
 - **When to use:** Use for high-throughput Rust scrapers or proxy services that must impersonate browser fingerprints at the cryptographic level.
 - **Upstream:** An ergonomic, privacy-aware Rust HTTP Client
 - **Why included:** The current Rust-side impersonation client (after rquest was deprecated); covers the Rust gap and is actively maintained.
@@ -129,10 +129,10 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 - **Upstream:** Burp Suite extension that mutates ciphers to bypass TLS-fingerprint based bot detection
 - **Why included:** Vendor-supported Burp extension covering the same gap with simpler ergonomics than burp-awesome-tls.
 
-### 🟡 fingerproxy
+### 🟢 fingerproxy
 
 - **Repo:** [wi1dcard/fingerproxy](https://github.com/wi1dcard/fingerproxy) · ⭐ 345 · Go · Apache-2.0
-- **Last push:** 2025-05-25 · **Status:** `stale`
+- **Last push:** 2026-10-01 · **Status:** `active`
 - **When to use:** Deploy when researching anti-bot detection logic — sit it in front of a backend to see exactly which JA3/JA4/H2 fingerprint your scraper presents.
 - **Upstream:** Fingerproxy is an HTTPS reverse proxy. It creates JA3, JA4, Akamai HTTP2 fingerprints, and forwards to backend via HTTP request headers.
 - **Why included:** Lets reverse-engineers build their own "fingerprint mirror" without commercial services like browserleaks.
@@ -159,24 +159,24 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Playwright
 
-- **Repo:** [microsoft/playwright](https://github.com/microsoft/playwright) · ⭐ 96,805 · TypeScript · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [microsoft/playwright](https://github.com/microsoft/playwright) · ⭐ 97,118 · TypeScript · Apache-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Cross-browser automation when you need built-in tracing, codegen, and request interception across Chromium/Firefox/WebKit from one API.
 - **Upstream:** Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 - **Latest release:** v1.60.0 (2026-05-11)
 
 ### 🟢 Puppeteer
 
-- **Repo:** [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) · ⭐ 95,630 · TypeScript · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) · ⭐ 95,653 · TypeScript · Apache-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Node-only Chrome automation when you want the canonical CDP wrapper without Playwright's heavier test-runner stack.
 - **Upstream:** JavaScript API for Chrome and Firefox
 - **Latest release:** browsers-v3.0.2 (2026-05-15)
 
 ### 🟢 chromedp
 
-- **Repo:** [chromedp/chromedp](https://github.com/chromedp/chromedp) · ⭐ 13,289 · Go · MIT
-- **Last push:** 2026-07-14 · **Status:** `active`
+- **Repo:** [chromedp/chromedp](https://github.com/chromedp/chromedp) · ⭐ 13,297 · Go · MIT
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Driving Chrome from Go without a Node bridge, ideal for scrapers and CI tools built in Go.
 - **Upstream:** A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.
 - **Latest release:** v0.15.1 (2026-04-01)
@@ -187,62 +187,62 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Scrapling
 
-- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 84,212 · Python · BSD-3-Clause
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · ⭐ 85,769 · Python · BSD-3-Clause
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Reach for it when you need a Python-first scraping stack that survives Cloudflare/Turnstile and offers stealth fetcher + AsyncFetcher + PlayWrightFetcher in one library.
 - **Upstream:** 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev
 - **Why included:** Fills the "modern Python anti-bot scraper" slot post-undetected-chromedriver and was the de-facto successor in 2025-2026.
 
 ### 🟡 undetected-chromedriver
 
-- **Repo:** [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) · ⭐ 12,858 · Python · GPL-3.0
+- **Repo:** [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) · ⭐ 12,859 · Python · GPL-3.0
 - **Last push:** 2025-07-05 · **Status:** `stale`
 - **When to use:** Bypassing bot mitigation from existing Selenium/Python code without rewriting to Playwright.
 - **Upstream:** Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
 
 ### 🟢 Camoufox
 
-- **Repo:** [daijro/camoufox](https://github.com/daijro/camoufox) · ⭐ 12,181 · Python · MPL-2.0
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [daijro/camoufox](https://github.com/daijro/camoufox) · ⭐ 12,339 · Python · MPL-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Anti-detect scraping when you need a real Firefox fork with C++-level fingerprint spoofing rather than JS patches.
 - **Upstream:** 🦊 Anti-detect browser
 - **Latest release:** v150.0.2-beta.25 (2026-05-11)
 
 ### 🟢 nodriver
 
-- **Repo:** [ultrafunkamsterdam/nodriver](https://github.com/ultrafunkamsterdam/nodriver) · ⭐ 4,788 · Python · AGPL-3.0
-- **Last push:** 2026-05-13 · **Status:** `active`
+- **Repo:** [ultrafunkamsterdam/nodriver](https://github.com/ultrafunkamsterdam/nodriver) · ⭐ 4,804 · Python · AGPL-3.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Use when you need raw CDP-driven Chrome automation without webdriver leaks and minimal stack fingerprint to bypass modern WAFs.
 - **Upstream:** Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots and any other creative ideas which are normally hindered by annoying anti bot systems like Captcha / CloudFlare / Imperva / hCaptcha
 - **Why included:** The official post-UC framework — replaces undetected-chromedriver for 2024+ anti-bot work and is explicitly excluded from your "known" list.
 
 ### 🟢 Patchright
 
-- **Repo:** [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) · ⭐ 4,701 · TypeScript · Apache-2.0
-- **Last push:** 2026-09-13 · **Status:** `active`
+- **Repo:** [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) · ⭐ 4,767 · TypeScript · Apache-2.0
+- **Last push:** 2026-10-01 · **Status:** `active`
 - **When to use:** Drop-in undetected Playwright when you already have a Playwright codebase and need to bypass Cloudflare/Datadome.
 - **Upstream:** Undetected version of the Playwright testing and automation library.
 - **Latest release:** v1.59.1 (2026-04-12)
 
 ### 🟢 BotBrowser
 
-- **Repo:** [botswin/BotBrowser](https://github.com/botswin/BotBrowser) · ⭐ 2,622 · TypeScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [botswin/BotBrowser](https://github.com/botswin/BotBrowser) · ⭐ 2,626 · TypeScript · MIT
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Drop in when you need a single fortified browser binary that bypasses the full enterprise anti-bot vendor matrix without per-vendor stealth plugins.
 - **Upstream:** Advanced Privacy Browser Core with Unified Fingerprint Defense: Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore
 - **Why included:** A post-Camoufox option that targets a much broader vendor list and stays current — a key gap in the existing list.
 
 ### 🟢 zendriver
 
-- **Repo:** [cdpdriver/zendriver](https://github.com/cdpdriver/zendriver) · ⭐ 1,445 · Python · AGPL-3.0
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [cdpdriver/zendriver](https://github.com/cdpdriver/zendriver) · ⭐ 1,452 · Python · AGPL-3.0
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Choose over nodriver when you need first-class async/await semantics and containerized deployment for stealth scraping.
 - **Upstream:** A blazing fast, async-first, undetectable webscraping/web automation framework based on ultrafunkamsterdam/nodriver. Now with Docker support!
 - **Why included:** The actively maintained async fork that many 2025-2026 projects have migrated to from nodriver.
 
 ### 🟡 rebrowser-patches
 
-- **Repo:** [rebrowser/rebrowser-patches](https://github.com/rebrowser/rebrowser-patches) · ⭐ 1,437 · JavaScript · None
+- **Repo:** [rebrowser/rebrowser-patches](https://github.com/rebrowser/rebrowser-patches) · ⭐ 1,439 · JavaScript · None
 - **Last push:** 2025-05-09 · **Status:** `stale`
 - **When to use:** Apply when you must keep using Puppeteer/Playwright (vs nodriver) but need to neutralize the runtime-enable leak and other 2024+ CDP detections.
 - **Upstream:** Collection of patches for puppeteer and playwright to avoid automation detection and leaks. Helps to avoid Cloudflare and DataDome CAPTCHA pages. Easy to patch/unpatch, can be enabled/disabled on demand.
@@ -254,7 +254,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟡 scrapfly fingerprint-generator
 
-- **Repo:** [scrapfly/fingerprint-generator](https://github.com/scrapfly/fingerprint-generator) · ⭐ 154 · Python · Apache-2.0
+- **Repo:** [scrapfly/fingerprint-generator](https://github.com/scrapfly/fingerprint-generator) · ⭐ 155 · Python · Apache-2.0
 - **Last push:** 2026-02-18 · **Status:** `stale`
 - **When to use:** Use when you need a Python-native source of statistically realistic FP bundles to feed into curl_cffi or nodriver sessions.
 - **Upstream:** Browser fingerprint data generator
@@ -299,7 +299,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🔴 ajax-hook
 
-- **Repo:** [wendux/ajax-hook](https://github.com/wendux/ajax-hook) · ⭐ 2,657 · JavaScript · None
+- **Repo:** [wendux/ajax-hook](https://github.com/wendux/ajax-hook) · ⭐ 2,658 · JavaScript · None
 - **Last push:** 2023-09-24 · **Status:** `dead`
 - **When to use:** Proxy XMLHttpRequest at the prototype level to capture requests issued by obfuscated bundles.
 - **Upstream:** Intercepting browser's http requests which made by XMLHttpRequest.
@@ -327,7 +327,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟡 eruda
 
-- **Repo:** [liriliri/eruda](https://github.com/liriliri/eruda) · ⭐ 21,203 · JavaScript · MIT
+- **Repo:** [liriliri/eruda](https://github.com/liriliri/eruda) · ⭐ 21,212 · JavaScript · MIT
 - **Last push:** 2025-08-01 · **Status:** `stale`
 - **When to use:** Inject a full DevTools-like console into a mobile webview where no remote debugger is available.
 - **Upstream:** Console for mobile browsers
@@ -335,23 +335,23 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Violentmonkey
 
-- **Repo:** [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) · ⭐ 8,949 · JavaScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) · ⭐ 8,973 · JavaScript · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Inject persistent userscripts at document-start to hook globals before page code runs.
 - **Upstream:** Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
 - **Latest release:** v2.37.0 (2026-04-23)
 
 ### 🟢 Requestly
 
-- **Repo:** [requestly/requestly](https://github.com/requestly/requestly) · ⭐ 6,760 · — · NOASSERTION
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [requestly/requestly](https://github.com/requestly/requestly) · ⭐ 6,757 · — · NOASSERTION
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Modify headers, redirect URLs, and inject scripts from a browser extension without a system-wide proxy.
 - **Upstream:** Community hub for Requestly API Client — bugs, feature requests, and roadmap. The privacy-first Postman alternative.
 - **Latest release:** changelog-2026.03.23 (2026-03-23)
 
 ### 🔴 Resource Override
 
-- **Repo:** [kylepaulsen/ResourceOverride](https://github.com/kylepaulsen/ResourceOverride) · ⭐ 533 · JavaScript · MIT
+- **Repo:** [kylepaulsen/ResourceOverride](https://github.com/kylepaulsen/ResourceOverride) · ⭐ 532 · JavaScript · MIT
 - **Last push:** 2024-09-02 · **Status:** `dead`
 - **When to use:** Swap a remote JS bundle for a local edited copy directly in Chrome without DevTools overrides setup.
 - **Upstream:** An extension to help you gain full control of any website by redirecting traffic, replacing, editing, or inserting new content.
@@ -370,7 +370,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 disable-devtool
 
-- **Repo:** [theajack/disable-devtool](https://github.com/theajack/disable-devtool) · ⭐ 3,540 · TypeScript · MIT
+- **Repo:** [theajack/disable-devtool](https://github.com/theajack/disable-devtool) · ⭐ 3,553 · TypeScript · MIT
 - **Last push:** 2026-05-29 · **Status:** `active`
 - **When to use:** Reference target — study its detection tricks to know what defenses your RE setup must defeat.
 - **Upstream:** Disable web developer tools from the f12 button, right-click and browser menu
@@ -378,14 +378,14 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 AntiDebug_Breaker
 
-- **Repo:** [0xsdeo/AntiDebug_Breaker](https://github.com/0xsdeo/AntiDebug_Breaker) · ⭐ 2,180 · JavaScript · None
+- **Repo:** [0xsdeo/AntiDebug_Breaker](https://github.com/0xsdeo/AntiDebug_Breaker) · ⭐ 2,203 · JavaScript · None
 - **Last push:** 2026-09-21 · **Status:** `active`
 - **When to use:** Bypass debugger/Function.toString/Proxy anti-debug traps as a browser extension during JS RE sessions.
 - **Upstream:** JavaScript Reverse Tools -- JS逆向工具
 
 ### 🔴 fuck-debugger-extensions
 
-- **Repo:** [546669204/fuck-debugger-extensions](https://github.com/546669204/fuck-debugger-extensions) · ⭐ 332 · JavaScript · Apache-2.0
+- **Repo:** [546669204/fuck-debugger-extensions](https://github.com/546669204/fuck-debugger-extensions) · ⭐ 333 · JavaScript · Apache-2.0
 - **Last push:** 2020-01-10 · **Status:** `dead`
 - **When to use:** Legacy reference extension showing minimal patterns to neutralize "debugger" infinite loops.
 - **Upstream:** javascript anti-anti debugging
@@ -396,7 +396,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 webcrack
 
-- **Repo:** [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) · ⭐ 2,941 · TypeScript · MIT
+- **Repo:** [j4k0xb/webcrack](https://github.com/j4k0xb/webcrack) · ⭐ 2,946 · TypeScript · MIT
 - **Last push:** 2026-07-26 · **Status:** `active`
 - **When to use:** One-shot CLI to undo obfuscator.io plus split a webpack/browserify bundle back into per-module files.
 - **Upstream:** Deobfuscate obfuscator.io, unminify and unpack bundled javascript
@@ -412,7 +412,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 synchrony
 
-- **Repo:** [relative/synchrony](https://github.com/relative/synchrony) · ⭐ 1,254 · TypeScript · GPL-3.0
+- **Repo:** [relative/synchrony](https://github.com/relative/synchrony) · ⭐ 1,250 · TypeScript · GPL-3.0
 - **Last push:** 2026-07-07 · **Status:** `active`
 - **When to use:** Legacy target specifically obfuscated with older javascript-obfuscator versions when webcrack misses string arrays.
 - **Upstream:** javascript-obfuscator cleaner & deobfuscator
@@ -435,7 +435,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟡 REstringer
 
-- **Repo:** [HumanSecurity/restringer](https://github.com/HumanSecurity/restringer) · ⭐ 611 · JavaScript · MIT
+- **Repo:** [HumanSecurity/restringer](https://github.com/HumanSecurity/restringer) · ⭐ 608 · JavaScript · MIT
 - **Last push:** 2025-12-07 · **Status:** `stale`
 - **When to use:** Generic deobfuscator that runs unsafe partial evaluation in a sandbox to resolve runtime-decoded strings webcrack leaves intact.
 - **Upstream:** A Javascript Deobfuscator
@@ -443,14 +443,14 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 View8
 
-- **Repo:** [suleram/View8](https://github.com/suleram/View8) · ⭐ 378 · Python · None
+- **Repo:** [suleram/View8](https://github.com/suleram/View8) · ⭐ 379 · Python · None
 - **Last push:** 2026-08-02 · **Status:** `active`
 - **When to use:** Recover source from V8 bytecode caches or .jsc files (Electron/Bytenode) where the original JS is not shipped.
 - **Upstream:** View8 - Decompiles serialized V8 objects back into high-level readable code.
 
 ### 🟡 obfuscation-detector
 
-- **Repo:** [HumanSecurity/obfuscation-detector](https://github.com/HumanSecurity/obfuscation-detector) · ⭐ 89 · JavaScript · MIT
+- **Repo:** [HumanSecurity/obfuscation-detector](https://github.com/HumanSecurity/obfuscation-detector) · ⭐ 90 · JavaScript · MIT
 - **Last push:** 2025-11-25 · **Status:** `stale`
 - **When to use:** Classify which obfuscator produced a sample before picking the right deobfuscator pipeline.
 - **Upstream:** Detect different types of JS obfuscation by their AST structure
@@ -465,7 +465,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟡 jscrambler-deobfuscator
 
-- **Repo:** [Ciarands/jscrambler-deobfuscator](https://github.com/Ciarands/jscrambler-deobfuscator) · ⭐ 63 · JavaScript · None
+- **Repo:** [Ciarands/jscrambler-deobfuscator](https://github.com/Ciarands/jscrambler-deobfuscator) · ⭐ 62 · JavaScript · None
 - **Last push:** 2025-10-18 · **Status:** `stale`
 - **When to use:** Start here when the target ships Jscrambler-protected JS (common in banking, ticketing, streaming) instead of generic obfuscator.io output.
 - **Upstream:** Deobfuscator for JScramblers Enterprise obfuscation (Covers most obfuscation techniques)
@@ -493,8 +493,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Babel
 
-- **Repo:** [babel/babel](https://github.com/babel/babel) · ⭐ 44,043 · TypeScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [babel/babel](https://github.com/babel/babel) · ⭐ 44,089 · TypeScript · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Foundation parser/traverser when writing custom AST transforms — every JS deobfuscator in this list builds on @babel/parser or its API.
 - **Upstream:** 🐠 Babel is a compiler for writing next generation JavaScript.
 - **Latest release:** v1.15.33 (2026-05-02)
@@ -502,31 +502,31 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 ### 🟢 SWC
 
 - **Repo:** [swc-project/swc](https://github.com/swc-project/swc) · ⭐ 34,209 · Rust · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Use when Babel is too slow on hundreds of MB of bundled JS and you can write the visitor in Rust or via the JS API.
 - **Upstream:** Rust-based platform for the Web
 - **Latest release:** v1.15.33 (2026-05-02)
 
 ### 🟢 ast-grep
 
-- **Repo:** [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) · ⭐ 16,064 · Rust · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) · ⭐ 16,122 · Rust · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Grep-style pattern matching over JS AST for triage when you do not want to write a full Babel visitor.
 - **Upstream:** ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
 - **Latest release:** 0.42.2 (2026-05-10)
 
 ### 🟢 jscodeshift
 
-- **Repo:** [facebook/jscodeshift](https://github.com/facebook/jscodeshift) · ⭐ 10,040 · JavaScript · MIT
-- **Last push:** 2026-09-17 · **Status:** `active`
+- **Repo:** [facebook/jscodeshift](https://github.com/facebook/jscodeshift) · ⭐ 10,037 · JavaScript · MIT
+- **Last push:** 2026-10-03 · **Status:** `active`
 - **When to use:** Write one-off codemods to mechanically rename or restructure a deobfuscated codebase with jest-style snapshot tests.
 - **Upstream:** A JavaScript codemod toolkit.
 - **Latest release:** v17.3.0 (2025-03-24)
 
 ### 🟢 Joern
 
-- **Repo:** [joernio/joern](https://github.com/joernio/joern) · ⭐ 3,533 · Scala · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [joernio/joern](https://github.com/joernio/joern) · ⭐ 3,543 · Scala · Apache-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Build code property graphs and run taint queries across a deobfuscated bundle to find sinks like eval or postMessage handlers.
 - **Upstream:** Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc
 - **Latest release:** v4.0.540 (2026-05-17)
@@ -537,7 +537,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 humanify
 
-- **Repo:** [jehna/humanify](https://github.com/jehna/humanify) · ⭐ 3,289 · Rust · MIT
+- **Repo:** [jehna/humanify](https://github.com/jehna/humanify) · ⭐ 3,286 · Rust · MIT
 - **Last push:** 2026-07-29 · **Status:** `active`
 - **When to use:** Rename minified single-letter identifiers to meaningful names using an LLM after structural deobfuscation is done.
 - **Upstream:** Deobfuscate Javascript code using ChatGPT
@@ -549,7 +549,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 stealth-browser-mcp
 
-- **Repo:** [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) · ⭐ 2,156 · Python · MIT
+- **Repo:** [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) · ⭐ 2,166 · Python · MIT
 - **Last push:** 2026-09-25 · **Status:** `active`
 - **When to use:** Plug into Claude/Cursor when you want an agent loop that can browse, inspect, and reverse-engineer a defended SPA in conversation.
 - **Upstream:** The only browser automation that bypasses anti-bot systems. AI writes network hooks, clones UIs pixel-perfect via simple chat.
@@ -557,7 +557,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟡 jshook-reverse-tool
 
-- **Repo:** [wuji66dde/jshook-reverse-tool](https://github.com/wuji66dde/jshook-reverse-tool) · ⭐ 188 · TypeScript · None
+- **Repo:** [wuji66dde/jshook-reverse-tool](https://github.com/wuji66dde/jshook-reverse-tool) · ⭐ 187 · TypeScript · None
 - **Last push:** 2025-12-01 · **Status:** `stale`
 - **When to use:** Use when you have an obfuscated script open in DevTools and want LLM-assisted call-graph and variable-rename suggestions inline.
 - **Upstream:** AI-powered JavaScript reverse engineering too
@@ -569,7 +569,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 webpack-bundle-analyzer
 
-- **Repo:** [webpack/webpack-bundle-analyzer](https://github.com/webpack/webpack-bundle-analyzer) · ⭐ 12,656 · JavaScript · MIT
+- **Repo:** [webpack/webpack-bundle-analyzer](https://github.com/webpack/webpack-bundle-analyzer) · ⭐ 12,653 · JavaScript · MIT
 - **Last push:** 2026-09-25 · **Status:** `active`
 - **When to use:** Open a stats.json or bundle to see module sizes and dependency parents in an interactive treemap before deciding what to unpack.
 - **Upstream:** Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap
@@ -579,7 +579,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🔴 source-map-explorer
 
-- **Repo:** [danvk/source-map-explorer](https://github.com/danvk/source-map-explorer) · ⭐ 3,931 · TypeScript · Apache-2.0
+- **Repo:** [danvk/source-map-explorer](https://github.com/danvk/source-map-explorer) · ⭐ 3,929 · TypeScript · Apache-2.0
 - **Last push:** 2023-03-14 · **Status:** `dead`
 - **When to use:** When a .map file is available, attribute every byte of a minified bundle back to its original source file as a treemap.
 - **Upstream:** Analyze and debug space usage through source maps
@@ -587,8 +587,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 wakaru
 
-- **Repo:** [pionxzh/wakaru](https://github.com/pionxzh/wakaru) · ⭐ 1,000 · Rust · Apache-2.0
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [pionxzh/wakaru](https://github.com/pionxzh/wakaru) · ⭐ 1,003 · Rust · Apache-2.0
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Unminify and restructure modern React/Vue/webpack bundles back into idiomatic per-module source with JSX recovery.
 - **Upstream:** 🔪📦 Javascript decompiler for modern frontend
 - **Latest release:** v3.0.0-294f939 (2026-05-16)
@@ -599,8 +599,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 React DevTools
 
-- **Repo:** [react/react](https://github.com/react/react) · ⭐ 250,798 · JavaScript · MIT
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [react/react](https://github.com/react/react) · ⭐ 250,902 · JavaScript · MIT
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Inspect component trees, props, state, and hooks of any React app in the browser; baseline tool before any custom instrumentation.
 - **Upstream:** The library for web and native user interfaces.
 - **Latest release:** v19.2.6 (2026-05-06)
@@ -609,8 +609,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Angular DevTools
 
-- **Repo:** [angular/angular](https://github.com/angular/angular/tree/main/devtools) · ⭐ 101,031 · TypeScript · MIT
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Repo:** [angular/angular](https://github.com/angular/angular/tree/main/devtools) · ⭐ 101,021 · TypeScript · MIT
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Inspect component trees, injector hierarchies, and change-detection profiling in any Angular app.
 - **Upstream:** Deliver web apps with confidence 🚀
 - **Latest release:** tracks angular/angular releases
@@ -618,7 +618,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 react-scan
 
-- **Repo:** [aidenybai/react-scan](https://github.com/aidenybai/react-scan) · ⭐ 21,858 · TypeScript · MIT
+- **Repo:** [aidenybai/react-scan](https://github.com/aidenybai/react-scan) · ⭐ 21,865 · TypeScript · MIT
 - **Last push:** 2026-08-16 · **Status:** `active`
 - **When to use:** Visually highlight which React components re-render on a live page without manually wiring up the Profiler.
 - **Upstream:** Scan and fix React performance issues
@@ -626,16 +626,16 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Redux DevTools
 
-- **Repo:** [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) · ⭐ 14,368 · TypeScript · MIT
-- **Last push:** 2026-09-26 · **Status:** `active`
+- **Repo:** [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) · ⭐ 14,366 · TypeScript · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Replay, time-travel, and diff Redux actions and state in a target app for understanding business-logic flow.
 - **Upstream:** DevTools for Redux with hot reloading, action replay, and customizable UI
 - **Latest release:** @redux-devtools/extension@4.0.0 (2026-03-17)
 
 ### 🟢 Vue DevTools
 
-- **Repo:** [vuejs/devtools](https://github.com/vuejs/devtools) · ⭐ 2,918 · TypeScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [vuejs/devtools](https://github.com/vuejs/devtools) · ⭐ 2,920 · TypeScript · MIT
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Inspect Vue component trees, Pinia/Vuex stores, routes, and events in any Vue 2/3 app from the browser.
 - **Upstream:** ⚙️ Devtools for debugging Vue.js applications.
 - **Latest release:** v8.1.2 (2026-05-08)
@@ -646,8 +646,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 MemLab
 
-- **Repo:** [facebook/memlab](https://github.com/facebook/memlab) · ⭐ 5,058 · TypeScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [facebook/memlab](https://github.com/facebook/memlab) · ⭐ 5,063 · TypeScript · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Automate heap-snapshot diffing across scripted user flows to find detached DOM/closure leaks.
 - **Upstream:** A framework for finding JavaScript memory leaks and analyzing heap snapshots
 
@@ -657,8 +657,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Perfetto
 
-- **Repo:** [google/perfetto](https://github.com/google/perfetto) · ⭐ 6,564 · C++ · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [google/perfetto](https://github.com/google/perfetto) · ⭐ 6,596 · C++ · Apache-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Open Chrome trace JSON for SQL-queryable analysis of long task chains and main-thread stalls.
 - **Upstream:** Production-grade client-side tracing, profiling, and analysis for complex software systems.
 - **Latest release:** v55.2 (2026-05-14)
@@ -669,15 +669,15 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 Frida
 
-- **Repo:** [frida/frida](https://github.com/frida/frida) · ⭐ 22,065 · Meson · NOASSERTION
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Repo:** [frida/frida](https://github.com/frida/frida) · ⭐ 22,126 · Meson · NOASSERTION
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Hooking native code in V8/Node/Electron or non-browser processes when CDP-level instrumentation isn't enough.
 - **Upstream:** Main repo for hosting release binaries
 - **Latest release:** 17.9.10 (2026-05-15)
 
 ### 🟢 objection
 
-- **Repo:** [sensepost/objection](https://github.com/sensepost/objection) · ⭐ 9,412 · Python · GPL-3.0
+- **Repo:** [sensepost/objection](https://github.com/sensepost/objection) · ⭐ 9,423 · Python · GPL-3.0
 - **Last push:** 2026-09-17 · **Status:** `active`
 - **When to use:** Ready-made Frida commands for mobile pentesting (SSL pinning bypass, class dumping) without writing Frida scripts by hand.
 - **Upstream:** 📱 objection - runtime mobile exploration
@@ -685,38 +685,38 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 LIEF
 
-- **Repo:** [lief-project/LIEF](https://github.com/lief-project/LIEF) · ⭐ 5,573 · C++ · Apache-2.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [lief-project/LIEF](https://github.com/lief-project/LIEF) · ⭐ 5,581 · C++ · Apache-2.0
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Parsing or rewriting PE/ELF/Mach-O of an Electron/native module before instrumenting at runtime with Frida.
 - **Upstream:** LIEF - Library to Instrument Executable Formats (C++, Python, Rust)
 - **Latest release:** 0.17.6 (2026-03-18)
 
 ### 🟢 r2frida
 
-- **Repo:** [nowsecure/r2frida](https://github.com/nowsecure/r2frida) · ⭐ 1,443 · TypeScript · MIT
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [nowsecure/r2frida](https://github.com/nowsecure/r2frida) · ⭐ 1,447 · TypeScript · MIT
+- **Last push:** 2026-10-04 · **Status:** `active`
 - **When to use:** Combining live Frida memory access with radare2's disassembler in one session to reverse packed/obfuscated native modules.
 - **Upstream:** Radare2 and Frida better together.
 - **Latest release:** 6.1.4 (2026-04-12)
 
 ### 🔴 Dwarf
 
-- **Repo:** [iGio90/Dwarf](https://github.com/iGio90/Dwarf) · ⭐ 1,320 · Python · GPL-3.0
+- **Repo:** [iGio90/Dwarf](https://github.com/iGio90/Dwarf) · ⭐ 1,321 · Python · GPL-3.0
 - **Last push:** 2024-05-16 · **Status:** `dead`
 - **When to use:** GUI debugger on top of Frida when you want breakpoints/memory views without scripting; mostly unmaintained.
 - **Upstream:** Full featured multi arch/os debugger built on top of PyQt5 and frida
 
 ### 🟢 frida-gum
 
-- **Repo:** [frida/frida-gum](https://github.com/frida/frida-gum) · ⭐ 1,024 · C · NOASSERTION
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [frida/frida-gum](https://github.com/frida/frida-gum) · ⭐ 1,026 · C · NOASSERTION
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Embedding Frida's Stalker/Interceptor engine directly into a C/C++ tool without the full Frida runtime.
 - **Upstream:** Cross-platform instrumentation and introspection library written in C
 
 ### 🟢 frida-node
 
 - **Repo:** [frida/frida-node](https://github.com/frida/frida-node) · ⭐ 328 · Python · None
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Driving Frida sessions from a Node.js orchestrator (e.g. inside an existing Puppeteer-based pipeline).
 - **Upstream:** Frida Node.js bindings
 
@@ -726,15 +726,15 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 asar
 
-- **Repo:** [electron/asar](https://github.com/electron/asar) · ⭐ 2,864 · TypeScript · MIT
-- **Last push:** 2026-09-27 · **Status:** `active`
+- **Repo:** [electron/asar](https://github.com/electron/asar) · ⭐ 2,866 · TypeScript · MIT
+- **Last push:** 2026-10-01 · **Status:** `active`
 - **When to use:** Extract app.asar archives bundled inside Electron apps to recover the original JS/HTML/CSS sources.
 - **Upstream:** Simple extensive tar-like archive format with indexing
 - **Latest release:** v4.2.0 (2026-03-31)
 
 ### 🟡 electronegativity
 
-- **Repo:** [doyensec/electronegativity](https://github.com/doyensec/electronegativity) · ⭐ 1,053 · JavaScript · Apache-2.0
+- **Repo:** [doyensec/electronegativity](https://github.com/doyensec/electronegativity) · ⭐ 1,052 · JavaScript · Apache-2.0
 - **Last push:** 2025-08-23 · **Status:** `stale`
 - **When to use:** Static-scan an unpacked Electron app for unsafe nodeIntegration, contextIsolation off, dangerous protocol handlers, and other known anti-patterns.
 - **Upstream:** Electronegativity is a tool to identify misconfigurations and security anti-patterns in Electron applications.
@@ -755,7 +755,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 hermes-dec
 
-- **Repo:** [P1sec/hermes-dec](https://github.com/P1sec/hermes-dec) · ⭐ 1,187 · Python · AGPL-3.0
+- **Repo:** [P1sec/hermes-dec](https://github.com/P1sec/hermes-dec) · ⭐ 1,198 · Python · AGPL-3.0
 - **Last push:** 2026-08-11 · **Status:** `active`
 - **When to use:** Reach for it on any React Native APK/IPA whose bundle.hbc you need to read as readable JS instead of bytecode.
 - **Upstream:** A reverse engineering tool for decompiling and disassembling the React Native Hermes bytecode
@@ -763,15 +763,15 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🔴 hbctool
 
-- **Repo:** [bongtrop/hbctool](https://github.com/bongtrop/hbctool) · ⭐ 642 · Python · MIT
+- **Repo:** [bongtrop/hbctool](https://github.com/bongtrop/hbctool) · ⭐ 641 · Python · MIT
 - **Last push:** 2023-12-10 · **Status:** `dead`
 - **When to use:** Round-trip patch a Hermes .hbc file (disassemble, edit, reassemble) for older bytecode versions where hermes-dec is decompile-only.
 - **Upstream:** Hermes Bytecode Reverse Engineering Tool (Assemble/Disassemble Hermes Bytecode)
 
 ### 🟢 hermes-decomp
 
-- **Repo:** [SymbioticSec/hermes-decomp](https://github.com/SymbioticSec/hermes-decomp) · ⭐ 178 · Rust · MIT
-- **Last push:** 2026-09-26 · **Status:** `active`
+- **Repo:** [SymbioticSec/hermes-decomp](https://github.com/SymbioticSec/hermes-decomp) · ⭐ 181 · Rust · MIT
+- **Last push:** 2026-10-01 · **Status:** `active`
 - **When to use:** Rust-based Hermes decompiler aiming for cleaner JS output than hermes-dec on newer bytecode; cross-check when hermes-dec produces poor results.
 - **Upstream:** A powerful decompiler that lets you reverse-engineer React Native mobile apps by converting their compiled Hermes bytecode (.hbc) files back into readable JavaScript.
 
@@ -792,24 +792,24 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 binaryen
 
-- **Repo:** [WebAssembly/binaryen](https://github.com/WebAssembly/binaryen) · ⭐ 8,646 · WebAssembly · Apache-2.0
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Repo:** [WebAssembly/binaryen](https://github.com/WebAssembly/binaryen) · ⭐ 8,653 · WebAssembly · Apache-2.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Run wasm-opt to shrink or transform .wasm modules and use wasm-dis for higher-level disassembly than wabt's raw WAT.
 - **Upstream:** Optimizer and compiler/toolchain library for WebAssembly
 - **Latest release:** version_129 (2026-04-01)
 
 ### 🟢 wabt
 
-- **Repo:** [WebAssembly/wabt](https://github.com/WebAssembly/wabt) · ⭐ 8,144 · C++ · Apache-2.0
-- **Last push:** 2026-09-21 · **Status:** `active`
+- **Repo:** [WebAssembly/wabt](https://github.com/WebAssembly/wabt) · ⭐ 8,148 · C++ · Apache-2.0
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Convert .wasm to readable .wat text format with wasm2wat, or assemble .wat back to .wasm; the reference toolkit when you need stable WAT output.
 - **Upstream:** The WebAssembly Binary Toolkit
 - **Latest release:** 1.0.41 (2026-05-07)
 
 ### 🟢 wasm-tools
 
-- **Repo:** [bytecodealliance/wasm-tools](https://github.com/bytecodealliance/wasm-tools) · ⭐ 1,793 · Rust · Apache-2.0
-- **Last push:** 2026-09-25 · **Status:** `active`
+- **Repo:** [bytecodealliance/wasm-tools](https://github.com/bytecodealliance/wasm-tools) · ⭐ 1,798 · Rust · Apache-2.0
+- **Last push:** 2026-10-02 · **Status:** `active`
 - **When to use:** Inspect, validate, and mutate Component Model / WASI Preview 2 modules where wabt and binaryen lag behind the spec.
 - **Upstream:** CLI and Rust libraries for low-level manipulation of WebAssembly modules
 - **Latest release:** v1.249.0 (2026-05-15)
@@ -835,7 +835,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 NotDec
 
-- **Repo:** [NotDec/NotDec](https://github.com/NotDec/NotDec) · ⭐ 93 · C++ · None
+- **Repo:** [NotDec/NotDec](https://github.com/NotDec/NotDec) · ⭐ 94 · C++ · None
 - **Last push:** 2026-09-20 · **Status:** `active`
 - **When to use:** Use when an anti-bot vendor (Akamai, Kasada, Cloudflare bm-vm) ships a heavy WASM blob and `wasm-decompile` output is too low-level to follow.
 - **Upstream:** a webassembly wasm decompiler and Static Analysis Framework based on llvm IR. (Work In Progress)
@@ -866,7 +866,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🔴🗄 ndb
 
-- **Repo:** [GoogleChromeLabs/ndb](https://github.com/GoogleChromeLabs/ndb) · ⭐ 10,864 · JavaScript · Apache-2.0
+- **Repo:** [GoogleChromeLabs/ndb](https://github.com/GoogleChromeLabs/ndb) · ⭐ 10,862 · JavaScript · Apache-2.0
 - **Last push:** 2022-05-26 · **Status:** `dead`
 - **When to use:** Legacy Node debugging via a standalone Chrome DevTools window; archived, prefer vscode-js-debug or node --inspect.
 - **Upstream:** ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
@@ -874,8 +874,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 vscode-js-debug
 
-- **Repo:** [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) · ⭐ 1,978 · TypeScript · MIT
-- **Last push:** 2026-09-23 · **Status:** `active`
+- **Repo:** [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) · ⭐ 1,980 · TypeScript · MIT
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Embedding a production-grade JS/Node debugger over DAP into your own editor or tool, not just VS Code.
 - **Upstream:** A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more
 - **Latest release:** v1.117.0 (2026-04-17)
@@ -886,7 +886,7 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 js-reverse-mcp
 
-- **Repo:** [zhizhuodemao/js-reverse-mcp](—) · ⭐ 2,844 · TypeScript · Apache-2.0
+- **Repo:** [zhizhuodemao/js-reverse-mcp](—) · ⭐ 2,888 · TypeScript · Apache-2.0
 - **Last push:** 2026-09-03 · **Status:** `active`
 - **When to use:** Drive a live Chrome/CDP debugger from an AI agent for JS reverse engineering: breakpoint-by-text, break-on-XHR, evaluate in a paused frame, export network bodies.
 - **Upstream:** AI Agent-first JS 逆向 MCP Server：有头 Chrome 调试、断点、网络/WebSocket 分析、Patchright 反检测，可选 CloakBrowser。
@@ -894,8 +894,8 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 
 ### 🟢 jshookmcp
 
-- **Repo:** [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) · ⭐ 2,020 · TypeScript · AGPL-3.0
-- **Last push:** 2026-09-28 · **Status:** `active`
+- **Repo:** [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) · ⭐ 2,021 · TypeScript · AGPL-3.0
+- **Last push:** 2026-10-05 · **Status:** `active`
 - **When to use:** Drive JS hooks from an MCP-capable LLM agent to script reverse-engineering of obfuscated SPAs.
 - **Upstream:** js hook toolkit that all you need
 
