@@ -300,6 +300,12 @@ plutil -p /Applications/App.app/Contents/Info.plist | grep ElectronAsarIntegrity
 # 5. Once unpacked, treat extracted/ as a regular webpack project — back to Layer 4
 ```
 
+**Evidence-linked Electron inspection:** Use [REA](https://github.com/morluto/rea) when the next question is how modules, imports, and Electron IPC connect in an extracted app. Its local CLI and stdio MCP tools return artifact identity, source locations, evidence, and explicit limitations; this step does not require a native decompiler.
+
+```bash
+npx -y rea-agents@6.1.0 analyze-javascript-application /absolute/path/to/extracted --json
+```
+
 **React Native Hermes:**
 
 ```bash
