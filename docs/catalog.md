@@ -1,6 +1,6 @@
 # Tool Catalog
 
-_Generated 2026-10-05T13:27:31.428176+00:00 from `data/verified.json`. 99 entries._
+_Generated 2026-10-09T15:13:21.081851+00:00 from `data/verified.json`. 100 entries._
 
 **Status legend:** 🟢 active (push < 6mo) · 🟡 stale (6-18mo) · 🔴 dead (>18mo) · ⚫ missing/hallucinated · 🗄 GitHub-archived (additional flag)
 
@@ -723,6 +723,15 @@ Catalog is organized by workflow layer (see [workflows.md](workflows.md)). Withi
 ---
 
 ## Layer 7 — Electron-specific
+
+### 🟢 REA
+
+- **Repo:** [morluto/rea](https://github.com/morluto/rea) · ⭐ 37,895 · TypeScript · MIT
+- **Last push:** 2026-10-09 · **Status:** `active`
+- **When to use:** Map modules, imports, and Electron IPC boundaries in a supplied app directory or ASAR into evidence-linked results for a coding agent.
+- **Upstream:** Reverse engineer anything with agents, from app behavior down to native binaries.
+- **Notes:** Static JavaScript inspection needs no native engine; native deep analysis uses separately installed Hopper, Ghidra, or IDA. Opaque bytecode can require a separate decoder.
+- **Why included:** Adds evidence-linked module, import, and Electron IPC analysis for a coding agent after archive extraction, complementing ASAR extraction and static security scanning.
 
 ### 🟢 asar
 

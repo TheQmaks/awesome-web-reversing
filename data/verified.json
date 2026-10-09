@@ -1,9 +1,9 @@
 {
   "$schema": "./schema.json",
-  "generated_at": "2026-10-05T13:27:31.428176+00:00",
-  "tool_count": 99,
+  "generated_at": "2026-10-09T15:13:21.081851+00:00",
+  "tool_count": 100,
   "status_counts": {
-    "active": 66,
+    "active": 67,
     "stale": 17,
     "dead": 14,
     "missing": 2
@@ -779,6 +779,23 @@
       "notes": "Originally cited by one deep-research report. Use webcrack or wakaru instead — they actually exist and do unminification properly.",
       "when_to_use": "N/A — does not exist as a real project.",
       "category": "deobfuscation"
+    },
+    {
+      "name": "REA",
+      "slug": "rea",
+      "repo": "morluto/rea",
+      "category": "electron-reverse",
+      "when_to_use": "Map modules, imports, and Electron IPC boundaries in a supplied app directory or ASAR into evidence-linked results for a coding agent.",
+      "install": "npm install --global rea-agents",
+      "notes": "Static JavaScript inspection needs no native engine; native deep analysis uses separately installed Hopper, Ghidra, or IDA. Opaque bytecode can require a separate decoder.",
+      "stars": 37895,
+      "last_push": "2026-10-09",
+      "license": "MIT",
+      "language": "TypeScript",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "status": "active",
+      "url": "https://github.com/morluto/rea",
+      "why_added": "Adds evidence-linked module, import, and Electron IPC analysis for a coding agent after archive extraction, complementing ASAR extraction and static security scanning."
     },
     {
       "name": "asar",
