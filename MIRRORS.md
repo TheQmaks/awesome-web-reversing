@@ -15,7 +15,7 @@ Mirrors preserve upstream `LICENSE` and history verbatim — this is an archive,
 | [GoogleChromeLabs/ndb](https://github.com/GoogleChromeLabs/ndb) | [GoogleChromeLabs__ndb](https://github.com/Web-Reversing-Tools/GoogleChromeLabs__ndb) | ✅ |
 | [HumanSecurity/obfuscation-detector](https://github.com/HumanSecurity/obfuscation-detector) | [HumanSecurity__obfuscation-detector](https://github.com/Web-Reversing-Tools/HumanSecurity__obfuscation-detector) | ✅ |
 | [HumanSecurity/restringer](https://github.com/HumanSecurity/restringer) | [HumanSecurity__restringer](https://github.com/Web-Reversing-Tools/HumanSecurity__restringer) | ✅ |
-| [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | [Kaliiiiiiiiii-Vinyzu__patchright](https://github.com/Web-Reversing-Tools/Kaliiiiiiiiii-Vinyzu__patchright) | ✅ |
+| [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | [Kaliiiiiiiiii-Vinyzu__patchright](https://github.com/Web-Reversing-Tools/Kaliiiiiiiiii-Vinyzu__patchright) | ⚠️ push |
 | [NotDec/NotDec](https://github.com/NotDec/NotDec) | [NotDec__NotDec](https://github.com/Web-Reversing-Tools/NotDec__NotDec) | ✅ |
 | [P1sec/hermes-dec](https://github.com/P1sec/hermes-dec) | [P1sec__hermes-dec](https://github.com/Web-Reversing-Tools/P1sec__hermes-dec) | ✅ |
 | [Pilfer/heresy](https://github.com/Pilfer/heresy) | [Pilfer__heresy](https://github.com/Web-Reversing-Tools/Pilfer__heresy) | ✅ |
@@ -33,13 +33,13 @@ Mirrors preserve upstream `LICENSE` and history verbatim — this is an archive,
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | [ast-grep__ast-grep](https://github.com/Web-Reversing-Tools/ast-grep__ast-grep) | ⚠️ push |
 | [babel/babel](https://github.com/babel/babel) | [babel__babel](https://github.com/Web-Reversing-Tools/babel__babel) | ⚠️ push |
 | [ben-sb/obfuscator-io-deobfuscator](https://github.com/ben-sb/obfuscator-io-deobfuscator) | [ben-sb__obfuscator-io-deobfuscator](https://github.com/Web-Reversing-Tools/ben-sb__obfuscator-io-deobfuscator) | ✅ |
-| [bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client) | [bogdanfinn__tls-client](https://github.com/Web-Reversing-Tools/bogdanfinn__tls-client) | ✅ |
+| [bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client) | [bogdanfinn__tls-client](https://github.com/Web-Reversing-Tools/bogdanfinn__tls-client) | ⚠️ push |
 | [bongtrop/hbctool](https://github.com/bongtrop/hbctool) | [bongtrop__hbctool](https://github.com/Web-Reversing-Tools/bongtrop__hbctool) | ✅ |
 | [botswin/BotBrowser](https://github.com/botswin/BotBrowser) | [botswin__BotBrowser](https://github.com/Web-Reversing-Tools/botswin__BotBrowser) | ✅ |
 | [bytecodealliance/wasm-tools](https://github.com/bytecodealliance/wasm-tools) | [bytecodealliance__wasm-tools](https://github.com/Web-Reversing-Tools/bytecodealliance__wasm-tools) | ⚠️ push |
 | [caido/caido](https://github.com/caido/caido) | [caido__caido](https://github.com/Web-Reversing-Tools/caido__caido) | ✅ |
 | [cdpdriver/zendriver](https://github.com/cdpdriver/zendriver) | [cdpdriver__zendriver](https://github.com/Web-Reversing-Tools/cdpdriver__zendriver) | ⚠️ push |
-| [chromedp/chromedp](https://github.com/chromedp/chromedp) | [chromedp__chromedp](https://github.com/Web-Reversing-Tools/chromedp__chromedp) | ✅ |
+| [chromedp/chromedp](https://github.com/chromedp/chromedp) | [chromedp__chromedp](https://github.com/Web-Reversing-Tools/chromedp__chromedp) | ⚠️ push |
 | [cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) | [cyrus-and__chrome-remote-interface](https://github.com/Web-Reversing-Tools/cyrus-and__chrome-remote-interface) | ✅ |
 | [daijro/camoufox](https://github.com/daijro/camoufox) | [daijro__camoufox](https://github.com/Web-Reversing-Tools/daijro__camoufox) | ⚠️ push |
 | [danvk/source-map-explorer](https://github.com/danvk/source-map-explorer) | [danvk__source-map-explorer](https://github.com/Web-Reversing-Tools/danvk__source-map-explorer) | ✅ |
@@ -63,7 +63,7 @@ Mirrors preserve upstream `LICENSE` and history verbatim — this is an archive,
 | [kylepaulsen/ResourceOverride](https://github.com/kylepaulsen/ResourceOverride) | [kylepaulsen__ResourceOverride](https://github.com/Web-Reversing-Tools/kylepaulsen__ResourceOverride) | ✅ |
 | [lelinhtinh/de4js](https://github.com/lelinhtinh/de4js) | [lelinhtinh__de4js](https://github.com/Web-Reversing-Tools/lelinhtinh__de4js) | ✅ |
 | [lexiforest/curl_cffi](https://github.com/lexiforest/curl_cffi) | [lexiforest__curl_cffi](https://github.com/Web-Reversing-Tools/lexiforest__curl_cffi) | ⚠️ push |
-| [lief-project/LIEF](https://github.com/lief-project/LIEF) | [lief-project__LIEF](https://github.com/Web-Reversing-Tools/lief-project__LIEF) | ✅ |
+| [lief-project/LIEF](https://github.com/lief-project/LIEF) | [lief-project__LIEF](https://github.com/Web-Reversing-Tools/lief-project__LIEF) | ⚠️ push |
 | [liriliri/eruda](https://github.com/liriliri/eruda) | [liriliri__eruda](https://github.com/Web-Reversing-Tools/liriliri__eruda) | ✅ |
 | [microsoft/playwright](https://github.com/microsoft/playwright) | [microsoft__playwright](https://github.com/Web-Reversing-Tools/microsoft__playwright) | ⚠️ push |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | [microsoft__vscode-js-debug](https://github.com/Web-Reversing-Tools/microsoft__vscode-js-debug) | ⚠️ push |
@@ -77,10 +77,10 @@ Mirrors preserve upstream `LICENSE` and history verbatim — this is an archive,
 | [pionxzh/wakaru](https://github.com/pionxzh/wakaru) | [pionxzh__wakaru](https://github.com/Web-Reversing-Tools/pionxzh__wakaru) | ⚠️ push |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | [puppeteer__puppeteer](https://github.com/Web-Reversing-Tools/puppeteer__puppeteer) | ⚠️ push |
 | [react/react](https://github.com/react/react) | [react__react](https://github.com/Web-Reversing-Tools/react__react) | ⚠️ push |
-| [rebrowser/rebrowser-patches](https://github.com/rebrowser/rebrowser-patches) | [rebrowser__rebrowser-patches](https://github.com/Web-Reversing-Tools/rebrowser__rebrowser-patches) | ✅ |
+| [rebrowser/rebrowser-patches](https://github.com/rebrowser/rebrowser-patches) | [rebrowser__rebrowser-patches](https://github.com/Web-Reversing-Tools/rebrowser__rebrowser-patches) | ⚠️ push |
 | [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) | [reduxjs__redux-devtools](https://github.com/Web-Reversing-Tools/reduxjs__redux-devtools) | ⚠️ push |
 | [relative/synchrony](https://github.com/relative/synchrony) | [relative__synchrony](https://github.com/Web-Reversing-Tools/relative__synchrony) | ✅ |
-| [replayio/devtools](https://github.com/replayio/devtools) | [replayio__devtools](https://github.com/Web-Reversing-Tools/replayio__devtools) | ✅ |
+| [replayio/devtools](https://github.com/replayio/devtools) | [replayio__devtools](https://github.com/Web-Reversing-Tools/replayio__devtools) | ⚠️ push |
 | [requestly/requestly](https://github.com/requestly/requestly) | [requestly__requestly](https://github.com/Web-Reversing-Tools/requestly__requestly) | ✅ |
 | [sardanioss/httpcloak](https://github.com/sardanioss/httpcloak) | [sardanioss__httpcloak](https://github.com/Web-Reversing-Tools/sardanioss__httpcloak) | ⚠️ push |
 | [scrapfly/Antibot-Detector](https://github.com/scrapfly/Antibot-Detector) | [scrapfly__Antibot-Detector](https://github.com/Web-Reversing-Tools/scrapfly__Antibot-Detector) | ⚠️ push |
@@ -93,7 +93,7 @@ Mirrors preserve upstream `LICENSE` and history verbatim — this is an archive,
 | [theajack/disable-devtool](https://github.com/theajack/disable-devtool) | [theajack__disable-devtool](https://github.com/Web-Reversing-Tools/theajack__disable-devtool) | ✅ |
 | [ultrafunkamsterdam/nodriver](https://github.com/ultrafunkamsterdam/nodriver) | [ultrafunkamsterdam__nodriver](https://github.com/Web-Reversing-Tools/ultrafunkamsterdam__nodriver) | ✅ |
 | [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) | [ultrafunkamsterdam__undetected-chromedriver](https://github.com/Web-Reversing-Tools/ultrafunkamsterdam__undetected-chromedriver) | ✅ |
-| [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | [vibheksoni__stealth-browser-mcp](https://github.com/Web-Reversing-Tools/vibheksoni__stealth-browser-mcp) | ✅ |
+| [vibheksoni/stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | [vibheksoni__stealth-browser-mcp](https://github.com/Web-Reversing-Tools/vibheksoni__stealth-browser-mcp) | ⚠️ push |
 | [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) | [violentmonkey__violentmonkey](https://github.com/Web-Reversing-Tools/violentmonkey__violentmonkey) | ⚠️ push |
 | [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) | [vmoranv__jshookmcp](https://github.com/Web-Reversing-Tools/vmoranv__jshookmcp) | ⚠️ push |
 | [vuejs/devtools](https://github.com/vuejs/devtools) | [vuejs__devtools](https://github.com/Web-Reversing-Tools/vuejs__devtools) | ⚠️ push |
