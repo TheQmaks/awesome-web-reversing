@@ -2,8 +2,8 @@
   slug: stealth-browser-mcp
   repo: vibheksoni/stealth-browser-mcp
   url: https://github.com/vibheksoni/stealth-browser-mcp
-  stars: 3317
-  last_push: '2026-11-02'
+  stars: 3352
+  last_push: '2026-11-09'
   license: MIT
   language: Python
   description: 'Stealth browser automation for AI agents over MCP and the Chrome DevTools Protocol: navigation, network hooks, DOM extraction, and pixel-accurate UI cloning.'
@@ -28,7 +28,7 @@
   slug: humanify
   repo: jehna/humanify
   url: https://github.com/jehna/humanify
-  stars: 3292
+  stars: 3298
   last_push: '2026-07-29'
   license: MIT
   language: Rust
@@ -41,7 +41,7 @@
   slug: ndb
   repo: GoogleChromeLabs/ndb
   url: https://github.com/GoogleChromeLabs/ndb
-  stars: 10860
+  stars: 10856
   last_push: '2022-05-26'
   license: Apache-2.0
   language: JavaScript
@@ -55,8 +55,8 @@
   slug: vscode-js-debug
   repo: microsoft/vscode-js-debug
   url: https://github.com/microsoft/vscode-js-debug
-  stars: 1988
-  last_push: '2026-11-01'
+  stars: 1987
+  last_push: '2026-11-06'
   license: MIT
   language: TypeScript
   description: A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more
@@ -68,7 +68,7 @@
   slug: disable-devtool
   repo: theajack/disable-devtool
   url: https://github.com/theajack/disable-devtool
-  stars: 3574
+  stars: 3576
   last_push: '2026-05-29'
   license: MIT
   language: TypeScript
@@ -81,7 +81,7 @@
   slug: antidebug-breaker
   repo: 0xsdeo/AntiDebug_Breaker
   url: https://github.com/0xsdeo/AntiDebug_Breaker
-  stars: 2249
+  stars: 2259
   last_push: '2026-09-21'
   license: None
   language: JavaScript
@@ -94,7 +94,7 @@
   slug: fuck-debugger-extensions
   repo: 546669204/fuck-debugger-extensions
   url: https://github.com/546669204/fuck-debugger-extensions
-  stars: 332
+  stars: 331
   last_push: '2020-01-10'
   license: Apache-2.0
   language: JavaScript
@@ -107,7 +107,7 @@
   slug: browsers-benchmark
   repo: techinz/browsers-benchmark
   url: https://github.com/techinz/browsers-benchmark
-  stars: 416
+  stars: 420
   last_push: '2026-09-01'
   license: MIT
   language: Python
@@ -121,7 +121,7 @@
   slug: creepjs
   repo: abrahamjuliot/creepjs
   url: https://github.com/abrahamjuliot/creepjs
-  stars: 2539
+  stars: 2546
   last_push: '2026-06-11'
   license: MIT
   language: TypeScript
@@ -134,8 +134,8 @@
   slug: antibot-detector
   repo: scrapfly/Antibot-Detector
   url: https://github.com/scrapfly/Antibot-Detector
-  stars: 620
-  last_push: '2026-11-02'
+  stars: 623
+  last_push: '2026-11-09'
   license: NOASSERTION
   language: JavaScript
   description: ' Real-time detection of anti-bot systems, captchas & fingerprinting techniques. Identifies Cloudflare, Akamai, DataDome, reCAPTCHA, hCaptcha, Shape Security & more with confidence scoring
@@ -148,8 +148,8 @@
   slug: scrapling
   repo: D4Vinci/Scrapling
   url: https://github.com/D4Vinci/Scrapling
-  stars: 92345
-  last_push: '2026-11-01'
+  stars: 100323
+  last_push: '2026-11-09'
   license: BSD-3-Clause
   language: Python
   description: '🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don''t be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily
@@ -162,8 +162,8 @@
   slug: camoufox
   repo: daijro/camoufox
   url: https://github.com/daijro/camoufox
-  stars: 12991
-  last_push: '2026-11-02'
+  stars: 13144
+  last_push: '2026-11-09'
   license: MPL-2.0
   language: Python
   description: 🦊 Anti-detect browser
@@ -175,7 +175,7 @@
   slug: undetected-chromedriver
   repo: ultrafunkamsterdam/undetected-chromedriver
   url: https://github.com/ultrafunkamsterdam/undetected-chromedriver
-  stars: 12895
+  stars: 12899
   last_push: '2025-07-05'
   license: GPL-3.0
   language: Python
@@ -188,8 +188,8 @@
   slug: patchright
   repo: Kaliiiiiiiiii-Vinyzu/patchright
   url: https://github.com/Kaliiiiiiiiii-Vinyzu/patchright
-  stars: 5048
-  last_push: '2026-10-31'
+  stars: 5130
+  last_push: '2026-11-05'
   license: Apache-2.0
   language: TypeScript
   description: Undetected version of the Playwright testing and automation library.
@@ -201,7 +201,7 @@
   slug: nodriver
   repo: ultrafunkamsterdam/nodriver
   url: https://github.com/ultrafunkamsterdam/nodriver
-  stars: 4908
+  stars: 4926
   last_push: '2026-10-26'
   license: AGPL-3.0
   language: Python
@@ -215,8 +215,8 @@
   slug: botbrowser
   repo: botswin/BotBrowser
   url: https://github.com/botswin/BotBrowser
-  stars: 2659
-  last_push: '2026-10-29'
+  stars: 2660
+  last_push: '2026-11-06'
   license: MIT
   language: TypeScript
   description: 'Advanced Privacy Browser Core with Unified Fingerprint Defense: Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore'
@@ -228,7 +228,7 @@
   slug: zendriver
   repo: cdpdriver/zendriver
   url: https://github.com/cdpdriver/zendriver
-  stars: 1466
+  stars: 1476
   last_push: '2026-10-02'
   license: AGPL-3.0
   language: Python
@@ -241,8 +241,8 @@
   slug: rebrowser-patches
   repo: rebrowser/rebrowser-patches
   url: https://github.com/rebrowser/rebrowser-patches
-  stars: 1455
-  last_push: '2026-10-19'
+  stars: 1456
+  last_push: '2026-11-02'
   license: MIT
   language: JavaScript
   description: Collection of patches for puppeteer and playwright to avoid automation detection and leaks. Helps to avoid Cloudflare and DataDome CAPTCHA pages. Easy to patch/unpatch, can be enabled/disabled
@@ -256,7 +256,7 @@
   repo: babel/babel
   url: https://github.com/babel/babel
   stars: 44056
-  last_push: '2026-11-02'
+  last_push: '2026-11-09'
   license: MIT
   language: TypeScript
   description: 🐠 Babel is a compiler for writing next generation JavaScript.
@@ -268,8 +268,8 @@
   slug: swc
   repo: swc-project/swc
   url: https://github.com/swc-project/swc
-  stars: 34209
-  last_push: '2026-11-02'
+  stars: 34211
+  last_push: '2026-11-09'
   license: Apache-2.0
   language: Rust
   description: Rust-based platform for the Web
@@ -281,8 +281,8 @@
   slug: ast-grep
   repo: ast-grep/ast-grep
   url: https://github.com/ast-grep/ast-grep
-  stars: 16419
-  last_push: '2026-11-02'
+  stars: 16515
+  last_push: '2026-11-09'
   license: MIT
   language: Rust
   description: ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
@@ -294,7 +294,7 @@
   slug: jscodeshift
   repo: meta/jscodeshift
   url: https://github.com/meta/jscodeshift
-  stars: 10042
+  stars: 10046
   last_push: '2026-10-27'
   license: MIT
   language: JavaScript
@@ -308,8 +308,8 @@
   slug: joern
   repo: joernio/joern
   url: https://github.com/joernio/joern
-  stars: 3616
-  last_push: '2026-11-02'
+  stars: 3631
+  last_push: '2026-11-09'
   license: Apache-2.0
   language: Scala
   description: Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc
@@ -321,8 +321,8 @@
   slug: playwright
   repo: microsoft/playwright
   url: https://github.com/microsoft/playwright
-  stars: 99105
-  last_push: '2026-11-02'
+  stars: 99670
+  last_push: '2026-11-08'
   license: Apache-2.0
   language: TypeScript
   description: 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. '
@@ -334,8 +334,8 @@
   slug: puppeteer
   repo: puppeteer/puppeteer
   url: https://github.com/puppeteer/puppeteer
-  stars: 95790
-  last_push: '2026-11-02'
+  stars: 95815
+  last_push: '2026-11-09'
   license: Apache-2.0
   language: TypeScript
   description: JavaScript API for Chrome and Firefox
@@ -347,8 +347,8 @@
   slug: chromedp
   repo: chromedp/chromedp
   url: https://github.com/chromedp/chromedp
-  stars: 13349
-  last_push: '2026-11-01'
+  stars: 13356
+  last_push: '2026-11-05'
   license: MIT
   language: Go
   description: A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.
@@ -373,8 +373,8 @@
   slug: violentmonkey
   repo: violentmonkey/violentmonkey
   url: https://github.com/violentmonkey/violentmonkey
-  stars: 9110
-  last_push: '2026-11-02'
+  stars: 9148
+  last_push: '2026-11-09'
   license: MIT
   language: JavaScript
   description: Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.
@@ -386,8 +386,8 @@
   slug: requestly
   repo: requestly/requestly
   url: https://github.com/requestly/requestly
-  stars: 6759
-  last_push: '2026-11-02'
+  stars: 6760
+  last_push: '2026-11-06'
   license: NOASSERTION
   language: null
   description: Community hub for Requestly API Client — bugs, feature requests, and roadmap. The privacy-first Postman alternative.
@@ -429,7 +429,7 @@
   renamed_from: webpack-contrib/webpack-bundle-analyzer
   url: https://github.com/webpack/webpack-bundle-analyzer
   stars: 12653
-  last_push: '2026-11-02'
+  last_push: '2026-11-08'
   license: MIT
   language: JavaScript
   description: Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap
@@ -455,8 +455,8 @@
   slug: wakaru
   repo: pionxzh/wakaru
   url: https://github.com/pionxzh/wakaru
-  stars: 1074
-  last_push: '2026-10-25'
+  stars: 1085
+  last_push: '2026-11-08'
   license: Apache-2.0
   language: Rust
   description: 🔪📦 Javascript decompiler for modern frontend
@@ -520,7 +520,7 @@
   slug: webcrack
   repo: j4k0xb/webcrack
   url: https://github.com/j4k0xb/webcrack
-  stars: 3010
+  stars: 3039
   last_push: '2026-07-26'
   license: MIT
   language: TypeScript
@@ -547,7 +547,7 @@
   slug: synchrony
   repo: relative/synchrony
   url: https://github.com/relative/synchrony
-  stars: 1259
+  stars: 1260
   last_push: '2026-07-07'
   license: GPL-3.0
   language: TypeScript
@@ -560,7 +560,7 @@
   slug: jstillery
   repo: mindedsecurity/JStillery
   url: https://github.com/mindedsecurity/JStillery
-  stars: 898
+  stars: 899
   last_push: '2019-05-30'
   license: GPL-3.0
   language: JavaScript
@@ -573,7 +573,7 @@
   slug: obfuscator-io-deobfuscator
   repo: ben-sb/obfuscator-io-deobfuscator
   url: https://github.com/ben-sb/obfuscator-io-deobfuscator
-  stars: 808
+  stars: 810
   last_push: '2026-08-09'
   license: Apache-2.0
   language: TypeScript
@@ -599,7 +599,7 @@
   slug: view8
   repo: suleram/View8
   url: https://github.com/suleram/View8
-  stars: 386
+  stars: 387
   last_push: '2026-10-18'
   license: None
   language: Python
@@ -638,11 +638,11 @@
   slug: jscrambler-deobfuscator
   repo: Ciarands/jscrambler-deobfuscator
   url: https://github.com/Ciarands/jscrambler-deobfuscator
-  stars: 62
-  last_push: '2026-11-02'
+  stars: 63
+  last_push: '2026-11-08'
   license: None
-  language: JavaScript
-  description: Deobfuscator for JScramblers Enterprise obfuscation (Covers most obfuscation techniques)
+  language: TypeScript
+  description: Deobfuscator for JScrambler Enterprise obfuscation
   status: active
   when_to_use: Start here when the target ships Jscrambler-protected JS (common in banking, ticketing, streaming) instead of generic obfuscator.io output.
   category: deobfuscation
@@ -651,7 +651,7 @@
   slug: obfio-deobfuscator-go
   repo: xKiian/obfio-deobfuscator
   url: https://github.com/xKiian/obfio-deobfuscator
-  stars: 32
+  stars: 33
   last_push: '2025-12-10'
   license: MIT
   language: Go
@@ -678,7 +678,7 @@
   slug: asar
   repo: electron/asar
   url: https://github.com/electron/asar
-  stars: 2884
+  stars: 2897
   last_push: '2026-11-01'
   license: MIT
   language: TypeScript
@@ -720,7 +720,7 @@
   slug: fingerprint-generator
   repo: scrapfly/fingerprint-generator
   url: https://github.com/scrapfly/fingerprint-generator
-  stars: 166
+  stars: 169
   last_push: '2026-02-18'
   license: Apache-2.0
   language: Python
@@ -733,8 +733,8 @@
   slug: react-devtools
   repo: react/react
   url: https://github.com/react/react
-  stars: 252089
-  last_push: '2026-10-31'
+  stars: 252439
+  last_push: '2026-11-09'
   license: MIT
   language: JavaScript
   description: The library for web and native user interfaces.
@@ -748,8 +748,8 @@
   slug: angular-devtools
   repo: angular/angular
   url: https://github.com/angular/angular/tree/main/devtools
-  stars: 101097
-  last_push: '2026-11-02'
+  stars: 101466
+  last_push: '2026-11-07'
   license: MIT
   language: TypeScript
   description: Deliver web apps with confidence 🚀
@@ -762,7 +762,7 @@
   slug: react-scan
   repo: aidenybai/react-scan
   url: https://github.com/aidenybai/react-scan
-  stars: 21880
+  stars: 21881
   last_push: '2026-08-16'
   license: MIT
   language: TypeScript
@@ -775,8 +775,8 @@
   slug: redux-devtools
   repo: reduxjs/redux-devtools
   url: https://github.com/reduxjs/redux-devtools
-  stars: 14372
-  last_push: '2026-11-02'
+  stars: 14374
+  last_push: '2026-11-08'
   license: MIT
   language: TypeScript
   description: DevTools for Redux with hot reloading, action replay, and customizable UI
@@ -788,8 +788,8 @@
   slug: vue-devtools
   repo: vuejs/devtools
   url: https://github.com/vuejs/devtools
-  stars: 2936
-  last_push: '2026-10-30'
+  stars: 2944
+  last_push: '2026-11-06'
   license: MIT
   language: TypeScript
   description: ⚙️ Devtools for debugging Vue.js applications.
@@ -801,7 +801,7 @@
   slug: ajax-hook
   repo: wendux/ajax-hook
   url: https://github.com/wendux/ajax-hook
-  stars: 2656
+  stars: 2655
   last_push: '2023-09-24'
   license: None
   language: JavaScript
@@ -843,7 +843,7 @@
   slug: hermes-dec
   repo: P1sec/hermes-dec
   url: https://github.com/P1sec/hermes-dec
-  stars: 1234
+  stars: 1244
   last_push: '2026-10-15'
   license: AGPL-3.0
   language: Python
@@ -857,7 +857,7 @@
   slug: hbctool
   repo: bongtrop/hbctool
   url: https://github.com/bongtrop/hbctool
-  stars: 644
+  stars: 647
   last_push: '2023-12-10'
   license: MIT
   language: Python
@@ -870,7 +870,7 @@
   slug: hermes-decomp
   repo: SymbioticSec/hermes-decomp
   url: https://github.com/SymbioticSec/hermes-decomp
-  stars: 200
+  stars: 210
   last_push: '2026-10-14'
   license: MIT
   language: Rust
@@ -885,7 +885,7 @@
   category: mcp-toolkit
   when_to_use: 'Drive a live Chrome/CDP debugger from an AI agent for JS reverse engineering: breakpoint-by-text, break-on-XHR, evaluate in a paused frame, export network bodies.'
   why_added: Second MCP toolkit beyond jshookmcp, focused on live CDP debugging primitives for agent-driven RE.
-  stars: 3035
+  stars: 3058
   last_push: '2026-09-03'
   license: Apache-2.0
   language: TypeScript
@@ -895,8 +895,8 @@
   slug: jshookmcp
   repo: vmoranv/jshookmcp
   url: https://github.com/vmoranv/jshookmcp
-  stars: 2094
-  last_push: '2026-11-02'
+  stars: 2108
+  last_push: '2026-11-06'
   license: AGPL-3.0
   language: TypeScript
   description: A search-first, profile-aware reverse-engineering workspace for AI agents — 735 tools across 36 domains in one MCP server.
@@ -908,8 +908,8 @@
   slug: memlab
   repo: meta/memlab
   url: https://github.com/meta/memlab
-  stars: 5081
-  last_push: '2026-10-31'
+  stars: 5088
+  last_push: '2026-11-09'
   license: MIT
   language: TypeScript
   description: A framework for finding JavaScript memory leaks and analyzing heap snapshots
@@ -922,8 +922,8 @@
   slug: frida
   repo: frida/frida
   url: https://github.com/frida/frida
-  stars: 22608
-  last_push: '2026-11-01'
+  stars: 22725
+  last_push: '2026-11-07'
   license: NOASSERTION
   language: Meson
   description: Main repo for hosting release binaries
@@ -935,7 +935,7 @@
   slug: objection
   repo: sensepost/objection
   url: https://github.com/sensepost/objection
-  stars: 9479
+  stars: 9495
   last_push: '2026-10-27'
   license: GPL-3.0
   language: Python
@@ -948,8 +948,8 @@
   slug: lief
   repo: lief-project/LIEF
   url: https://github.com/lief-project/LIEF
-  stars: 5616
-  last_push: '2026-11-02'
+  stars: 5650
+  last_push: '2026-11-08'
   license: Apache-2.0
   language: C++
   description: LIEF - Library to Instrument Executable Formats (C++, Python, Rust)
@@ -961,8 +961,8 @@
   slug: r2frida
   repo: nowsecure/r2frida
   url: https://github.com/nowsecure/r2frida
-  stars: 1450
-  last_push: '2026-11-01'
+  stars: 1452
+  last_push: '2026-11-09'
   license: MIT
   language: TypeScript
   description: Radare2 and Frida better together.
@@ -974,7 +974,7 @@
   slug: dwarf
   repo: iGio90/Dwarf
   url: https://github.com/iGio90/Dwarf
-  stars: 1321
+  stars: 1320
   last_push: '2024-05-16'
   license: GPL-3.0
   language: Python
@@ -987,8 +987,8 @@
   slug: frida-gum
   repo: frida/frida-gum
   url: https://github.com/frida/frida-gum
-  stars: 1040
-  last_push: '2026-11-01'
+  stars: 1042
+  last_push: '2026-11-07'
   license: NOASSERTION
   language: C
   description: Cross-platform instrumentation and introspection library written in C
@@ -1001,7 +1001,7 @@
   repo: frida/frida-node
   url: https://github.com/frida/frida-node
   stars: 331
-  last_push: '2026-11-01'
+  last_push: '2026-11-07'
   license: None
   language: Python
   description: Frida Node.js bindings
@@ -1013,8 +1013,8 @@
   slug: mitmproxy
   repo: mitmproxy/mitmproxy
   url: https://github.com/mitmproxy/mitmproxy
-  stars: 46562
-  last_push: '2026-11-01'
+  stars: 46751
+  last_push: '2026-11-04'
   license: MIT
   language: Python
   description: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
@@ -1026,7 +1026,7 @@
   slug: http-toolkit
   repo: httptoolkit/httptoolkit
   url: https://github.com/httptoolkit/httptoolkit
-  stars: 3665
+  stars: 3666
   last_push: '2026-02-04'
   license: None
   language: null
@@ -1039,7 +1039,7 @@
   slug: caido
   repo: caido/caido
   url: https://github.com/caido/caido
-  stars: 2716
+  stars: 2722
   last_push: '2026-10-30'
   license: None
   language: Shell
@@ -1066,7 +1066,7 @@
   repo: replayio/devtools
   url: https://github.com/replayio/devtools
   stars: 723
-  last_push: '2026-10-27'
+  last_push: '2026-11-03'
   license: NOASSERTION
   language: TypeScript
   description: Replay.io DevTools
@@ -1078,7 +1078,7 @@
   slug: browser-fingerprinting-analysis
   repo: niespodd/browser-fingerprinting
   url: https://github.com/niespodd/browser-fingerprinting
-  stars: 5155
+  stars: 5160
   last_push: '2026-07-27'
   license: None
   language: JavaScript
@@ -1091,7 +1091,7 @@
   slug: curl-cffi
   repo: lexiforest/curl_cffi
   url: https://github.com/lexiforest/curl_cffi
-  stars: 6811
+  stars: 6828
   last_push: '2026-10-27'
   license: MIT
   language: Python
@@ -1104,7 +1104,7 @@
   slug: tls-client
   repo: bogdanfinn/tls-client
   url: https://github.com/bogdanfinn/tls-client
-  stars: 1925
+  stars: 1937
   last_push: '2026-11-02'
   license: BSD-3-Clause
   language: Go
@@ -1118,7 +1118,7 @@
   repo: sleeyax/burp-awesome-tls
   url: https://github.com/sleeyax/burp-awesome-tls
   stars: 1911
-  last_push: '2026-10-28'
+  last_push: '2026-11-06'
   license: GPL-3.0
   language: Go
   description: Burp extension to evade TLS fingerprinting. Bypass WAF, spoof any browser.
@@ -1130,7 +1130,7 @@
   slug: httpcloak
   repo: sardanioss/httpcloak
   url: https://github.com/sardanioss/httpcloak
-  stars: 1355
+  stars: 1365
   last_push: '2026-10-13'
   license: MIT
   language: Go
@@ -1144,8 +1144,8 @@
   slug: wreq
   repo: 0x676e67/wreq
   url: https://github.com/0x676e67/wreq
-  stars: 1092
-  last_push: '2026-11-02'
+  stars: 1099
+  last_push: '2026-11-08'
   license: Apache-2.0
   language: Rust
   description: An ergonomic, privacy-aware Rust HTTP Client
@@ -1157,7 +1157,7 @@
   slug: bypass-bot-detection
   repo: PortSwigger/bypass-bot-detection
   url: https://github.com/PortSwigger/bypass-bot-detection
-  stars: 507
+  stars: 506
   last_push: '2025-09-09'
   license: Apache-2.0
   language: Java
@@ -1183,7 +1183,7 @@
   slug: nginx-ssl-fingerprint
   repo: phuslu/nginx-ssl-fingerprint
   url: https://github.com/phuslu/nginx-ssl-fingerprint
-  stars: 249
+  stars: 250
   last_push: '2026-09-02'
   license: BSD-2-Clause
   language: C
@@ -1209,8 +1209,8 @@
   slug: perfetto
   repo: google/perfetto
   url: https://github.com/google/perfetto
-  stars: 6735
-  last_push: '2026-11-02'
+  stars: 6774
+  last_push: '2026-11-09'
   license: Apache-2.0
   language: C++
   description: Production-grade client-side tracing, profiling, and analysis for complex software systems.
@@ -1222,8 +1222,8 @@
   slug: binaryen
   repo: WebAssembly/binaryen
   url: https://github.com/WebAssembly/binaryen
-  stars: 8673
-  last_push: '2026-11-02'
+  stars: 8678
+  last_push: '2026-11-09'
   license: Apache-2.0
   language: WebAssembly
   description: Optimizer and compiler/toolchain library for WebAssembly
@@ -1235,10 +1235,10 @@
   slug: wabt
   repo: WebAssembly/wabt
   url: https://github.com/WebAssembly/wabt
-  stars: 8191
-  last_push: '2026-10-28'
+  stars: 8197
+  last_push: '2026-11-05'
   license: Apache-2.0
-  language: C++
+  language: null
   description: The WebAssembly Binary Toolkit
   latest_release: 1.0.41 (2026-05-07)
   status: active
@@ -1248,8 +1248,8 @@
   slug: wasm-tools
   repo: bytecodealliance/wasm-tools
   url: https://github.com/bytecodealliance/wasm-tools
-  stars: 1812
-  last_push: '2026-10-30'
+  stars: 1814
+  last_push: '2026-11-04'
   license: Apache-2.0
   language: Rust
   description: ' CLI and Rust libraries for low-level manipulation of WebAssembly modules '
@@ -1261,7 +1261,7 @@
   slug: twiggy
   repo: AlexEne/twiggy
   url: https://github.com/AlexEne/twiggy
-  stars: 1425
+  stars: 1424
   last_push: '2026-02-18'
   license: Apache-2.0
   language: Rust
